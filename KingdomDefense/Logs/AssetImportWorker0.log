@@ -15,9 +15,15 @@ C:/Users/TFG255X/GitHub/KingdomDefense/KingdomDefense
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
+<<<<<<< Updated upstream
 49153
 Successfully changed project path to: C:/Users/TFG255X/GitHub/KingdomDefense/KingdomDefense
 C:/Users/TFG255X/GitHub/KingdomDefense/KingdomDefense
+=======
+52755
+Successfully changed project path to: C:/Users/raina/OneDrive/ë°”íƒ• í™”ë©´/KingdomDefense/KingdomDefense
+C:/Users/raina/OneDrive/ë°”íƒ• í™”ë©´/KingdomDefense/KingdomDefense
+>>>>>>> Stashed changes
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -47,11 +53,19 @@ C:/Users/TFG255X/GitHub/KingdomDefense/KingdomDefense
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
+<<<<<<< Updated upstream
 Player connection [17048] Host "[IP] 192.168.16.1 [Port] 0 [Flags] 2 [Guid] 3092129854 [EditorId] 3092129854 [Version] 1048832 [Id] WindowsEditor(7,TFG255X) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
 Player connection [17048] Host "[IP] 192.168.16.1 [Port] 0 [Flags] 2 [Guid] 3092129854 [EditorId] 3092129854 [Version] 1048832 [Id] WindowsEditor(7,TFG255X) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 Refreshing native plugins compatible for Editor in 105.65 ms, found 4 plugins.
+=======
+Player connection [30584] Host "[IP] 10.21.21.156 [Port] 0 [Flags] 2 [Guid] 3091744748 [EditorId] 3091744748 [Version] 1048832 [Id] WindowsEditor(7,±×·¥ÀÌ) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [30584] Host "[IP] 10.21.21.156 [Port] 0 [Flags] 2 [Guid] 3091744748 [EditorId] 3091744748 [Version] 1048832 [Id] WindowsEditor(7,±×·¥ÀÌ) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 92.18 ms, found 4 plugins.
+>>>>>>> Stashed changes
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.16f1 (4016570cf34f)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Resources/UnitySubsystems
@@ -67,6 +81,7 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/MonoBleedingEdge/etc'
+<<<<<<< Updated upstream
 Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56400
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
@@ -80,11 +95,27 @@ Mono: successfully reloaded assembly
 Domain Reload Profiling:
 	ReloadAssembly (654ms)
 		BeginReloadAssembly (71ms)
+=======
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56200
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.010042 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 104.18 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.830 seconds
+Domain Reload Profiling:
+	ReloadAssembly (830ms)
+		BeginReloadAssembly (111ms)
+>>>>>>> Stashed changes
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
+<<<<<<< Updated upstream
 		EndReloadAssembly (476ms)
 			LoadAssemblies (68ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
@@ -99,17 +130,38 @@ Domain Reload Profiling:
 				BeforeProcessingInitializeOnLoad (1ms)
 				ProcessInitializeOnLoadAttributes (125ms)
 				ProcessInitializeOnLoadMethodAttributes (48ms)
+=======
+		EndReloadAssembly (578ms)
+			LoadAssemblies (107ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (172ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (36ms)
+			SetupLoadedEditorAssemblies (297ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (104ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (122ms)
+				ProcessInitializeOnLoadMethodAttributes (60ms)
+>>>>>>> Stashed changes
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
+<<<<<<< Updated upstream
 Registered in 0.007674 seconds.
+=======
+Registered in 0.021552 seconds.
+>>>>>>> Stashed changes
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\TFG255X\GitHub\KingdomDefense\KingdomDefense\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\TFG255X\GitHub\KingdomDefense\KingdomDefense\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
+<<<<<<< Updated upstream
 Refreshing native plugins compatible for Editor in 121.83 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
@@ -150,6 +202,48 @@ Unloading 4052 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 38 unused Assets / (61.8 KB). Loaded Objects now: 4510.
 Memory consumption went from 155.7 MB to 155.7 MB.
 Total: 4.466900 ms (FindLiveObjects: 0.440800 ms CreateObjectMapping: 0.274300 ms MarkObjects: 3.661200 ms  DeleteObjects: 0.089700 ms)
+=======
+Refreshing native plugins compatible for Editor in 94.80 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.286 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1287ms)
+		BeginReloadAssembly (130ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (20ms)
+		EndReloadAssembly (1013ms)
+			LoadAssemblies (131ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (255ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (51ms)
+			SetupLoadedEditorAssemblies (533ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (95ms)
+				BeforeProcessingInitializeOnLoad (118ms)
+				ProcessInitializeOnLoadAttributes (253ms)
+				ProcessInitializeOnLoadMethodAttributes (44ms)
+				AfterProcessingInitializeOnLoad (15ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (16ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Refreshing native plugins compatible for Editor in 1.01 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4052 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 38 unused Assets / (61.8 KB). Loaded Objects now: 4510.
+Memory consumption went from 151.4 MB to 151.3 MB.
+Total: 3.100000 ms (FindLiveObjects: 0.300400 ms CreateObjectMapping: 0.113100 ms MarkObjects: 2.612500 ms  DeleteObjects: 0.073000 ms)
+>>>>>>> Stashed changes
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -163,6 +257,7 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
+<<<<<<< Updated upstream
   Time since last request: 27464.228043 seconds.
   path: Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Plant/PF Flower.prefab
   artifactKey: Guid(c6d86ec8825b7674a9736d1cb0cd98a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
@@ -705,3 +800,297 @@ Received Import Request.
   path: Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props
   artifactKey: Guid(549c9282ce98c674f9c8e0145c20eb7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props using Guid(549c9282ce98c674f9c8e0145c20eb7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f49aad6fcfd4d33a9ee2d8bbc75c266') in 0.006775 seconds 
+=======
+  Time since last request: 1502594.091728 seconds.
+  path: Assets/Grid Example/Grid_Forest.prefab
+  artifactKey: Guid(3f009aec0a7b2344eaf35e57d2e7d161) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Grid Example/Grid_Forest.prefab using Guid(3f009aec0a7b2344eaf35e57d2e7d161) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6440d5bc7bf4e4e3f9912a6aaaed2ca6') in 0.229748 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5255.817858 seconds.
+  path: Assets/Terrain Tile Hex Samples/Tile Samples/oceanCalm00.png
+  artifactKey: Guid(65f97617738bdcf40b2c6a3cc6fed0e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain Tile Hex Samples/Tile Samples/oceanCalm00.png using Guid(65f97617738bdcf40b2c6a3cc6fed0e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb4c674205872d246b18b95d3bb3f4e7') in 0.145123 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 182.054290 seconds.
+  path: Assets/Terrain Tile Hex Samples/Tile Samples/forestPineSnowCovered00.png
+  artifactKey: Guid(3efcbae0e04ff3f489b733d0a82966d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain Tile Hex Samples/Tile Samples/forestPineSnowCovered00.png using Guid(3efcbae0e04ff3f489b733d0a82966d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03af902220660015db7338d88438d94e') in 0.058528 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.926185 seconds.
+  path: Assets/Terrain Tile Hex Samples/Tile Samples/below_water00.png
+  artifactKey: Guid(a4b92a0441606bd499fbf36994da18b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain Tile Hex Samples/Tile Samples/below_water00.png using Guid(a4b92a0441606bd499fbf36994da18b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '150e9f594948a98d39d284929225f9a5') in 0.048004 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.527114 seconds.
+  path: Assets/Terrain Tile Hex Samples/Tile Samples/jungle00.png
+  artifactKey: Guid(e2e66902c768ff34b9e8637f06b1a595) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain Tile Hex Samples/Tile Samples/jungle00.png using Guid(e2e66902c768ff34b9e8637f06b1a595) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef049c1a1f5205bc0955420a323768e6') in 0.060613 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.451498 seconds.
+  path: Assets/Terrain Tile Hex Samples/Tile Samples/mountain00.png
+  artifactKey: Guid(655d1825cbe189d4d97a48fbae36bdbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain Tile Hex Samples/Tile Samples/mountain00.png using Guid(655d1825cbe189d4d97a48fbae36bdbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f93feee4cadd08726177cb4ea91b8015') in 0.048250 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 16.920381 seconds.
+  path: Assets/Terrain Tile Hex Samples/Tile Samples/mountain00.png
+  artifactKey: Guid(655d1825cbe189d4d97a48fbae36bdbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain Tile Hex Samples/Tile Samples/mountain00.png using Guid(655d1825cbe189d4d97a48fbae36bdbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd1e1e7414f2ba3ca14b10ace84cd6e3') in 0.035606 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 26.905382 seconds.
+  path: Assets/Terrain Tile Hex Samples/Tile Samples/oceanCalm00.png
+  artifactKey: Guid(65f97617738bdcf40b2c6a3cc6fed0e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain Tile Hex Samples/Tile Samples/oceanCalm00.png using Guid(65f97617738bdcf40b2c6a3cc6fed0e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3939fe0cbf2325f0849295cc5ac077bd') in 0.028469 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 35.331314 seconds.
+  path: Assets/Terrain Tile Hex Samples/Tile Samples/mountain00.png
+  artifactKey: Guid(655d1825cbe189d4d97a48fbae36bdbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain Tile Hex Samples/Tile Samples/mountain00.png using Guid(655d1825cbe189d4d97a48fbae36bdbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fce296ea746d2037d7f957d8d5187653') in 0.032802 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.537745 seconds.
+  path: Assets/Terrain Tile Hex Samples/Tile Samples/mountain00.png
+  artifactKey: Guid(655d1825cbe189d4d97a48fbae36bdbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain Tile Hex Samples/Tile Samples/mountain00.png using Guid(655d1825cbe189d4d97a48fbae36bdbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f721da48db696f5de2a043dfc4ecfaf') in 0.032221 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 18.787312 seconds.
+  path: Assets/Terrain Tile Hex Samples/Tile Samples/plains00.png
+  artifactKey: Guid(da3e6bbb84c179140bc2ea270b6958bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain Tile Hex Samples/Tile Samples/plains00.png using Guid(da3e6bbb84c179140bc2ea270b6958bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15710c6fc0c39bca76c0d5d96129593a') in 0.044919 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.017561 seconds.
+  path: Assets/Terrain Tile Hex Samples/Tile Samples/plains00.png
+  artifactKey: Guid(da3e6bbb84c179140bc2ea270b6958bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain Tile Hex Samples/Tile Samples/plains00.png using Guid(da3e6bbb84c179140bc2ea270b6958bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17aaa4b7b20dd20091900b1972204b66') in 0.029017 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.647357 seconds.
+  path: Assets/Terrain Tile Hex Samples/Tile Samples/oceanCalm00.png
+  artifactKey: Guid(65f97617738bdcf40b2c6a3cc6fed0e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain Tile Hex Samples/Tile Samples/oceanCalm00.png using Guid(65f97617738bdcf40b2c6a3cc6fed0e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6674b66c13e963fc1022d7ed91dcce68') in 0.029021 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.368507 seconds.
+  path: Assets/Terrain Tile Hex Samples/Tile Samples/jungle00.png
+  artifactKey: Guid(e2e66902c768ff34b9e8637f06b1a595) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain Tile Hex Samples/Tile Samples/jungle00.png using Guid(e2e66902c768ff34b9e8637f06b1a595) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df4b90f16f96095c0141bd67d4734d39') in 0.029978 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.577084 seconds.
+  path: Assets/Terrain Tile Hex Samples/Tile Samples/forestPineSnowCovered00.png
+  artifactKey: Guid(3efcbae0e04ff3f489b733d0a82966d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain Tile Hex Samples/Tile Samples/forestPineSnowCovered00.png using Guid(3efcbae0e04ff3f489b733d0a82966d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bda4319b61751ab517e36b1e87a8d571') in 0.036109 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.122836 seconds.
+  path: Assets/Terrain Tile Hex Samples/Tile Samples/forestBroadleaf00.png
+  artifactKey: Guid(089ec694c2f50a748a5f490fa5616b5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain Tile Hex Samples/Tile Samples/forestBroadleaf00.png using Guid(089ec694c2f50a748a5f490fa5616b5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9c1fc5b9d1a7fd1de3a0084f7bf121d') in 0.038332 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.389380 seconds.
+  path: Assets/Terrain Tile Hex Samples/Tile Samples/forestBroadleaf00.png
+  artifactKey: Guid(089ec694c2f50a748a5f490fa5616b5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain Tile Hex Samples/Tile Samples/forestBroadleaf00.png using Guid(089ec694c2f50a748a5f490fa5616b5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '622974010b179e2d32febbe4d2f7eac0') in 0.030964 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 28.997343 seconds.
+  path: Assets/Terrain Tile Hex Samples/Tile Samples/volcanoActive00.png
+  artifactKey: Guid(7ae31a8180ce39742905ed117198b940) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain Tile Hex Samples/Tile Samples/volcanoActive00.png using Guid(7ae31a8180ce39742905ed117198b940) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e3a157fb01485ceeb025f27b0e5e4d5') in 0.044748 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 8.297630 seconds.
+  path: Assets/Terrain Tile Hex Samples/Tile Samples/volcanoActive00.png
+  artifactKey: Guid(7ae31a8180ce39742905ed117198b940) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain Tile Hex Samples/Tile Samples/volcanoActive00.png using Guid(7ae31a8180ce39742905ed117198b940) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2a3bc0816e4b23aa40630c7e8212025') in 0.039844 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.700677 seconds.
+  path: Assets/Terrain Tile Hex Samples/Tile Samples/plains_castle00.png
+  artifactKey: Guid(97c990d13571d614c9f638ee4e0a3473) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain Tile Hex Samples/Tile Samples/plains_castle00.png using Guid(97c990d13571d614c9f638ee4e0a3473) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69ebc85f0d79d4099ab6de9505559ee3') in 0.061935 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.890859 seconds.
+  path: Assets/Terrain Tile Hex Samples/Tile Samples/plains_castle00.png
+  artifactKey: Guid(97c990d13571d614c9f638ee4e0a3473) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain Tile Hex Samples/Tile Samples/plains_castle00.png using Guid(97c990d13571d614c9f638ee4e0a3473) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2023dc050a2f175508a97749a28c63ec') in 0.038555 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.644553 seconds.
+  path: Assets/Terrain Tile Hex Samples/Tile Samples/desertYellowCactiForest00.png
+  artifactKey: Guid(87c7040ad207a684bac935f806313e07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain Tile Hex Samples/Tile Samples/desertYellowCactiForest00.png using Guid(87c7040ad207a684bac935f806313e07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd707b3be3912f24e5353a532cb006b4') in 0.039276 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.668357 seconds.
+  path: Assets/Terrain Tile Hex Samples/Tile Samples/desertYellowCactiForest00.png
+  artifactKey: Guid(87c7040ad207a684bac935f806313e07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain Tile Hex Samples/Tile Samples/desertYellowCactiForest00.png using Guid(87c7040ad207a684bac935f806313e07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3bc9192fcc6285c385f456652564416') in 0.038328 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.949615 seconds.
+  path: Assets/Terrain Tile Hex Samples/Tile Samples/base00.png
+  artifactKey: Guid(591295cd5f5d94941a03995981cb232c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain Tile Hex Samples/Tile Samples/base00.png using Guid(591295cd5f5d94941a03995981cb232c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '700a65eca5dbe24ea91610f0411b927c') in 0.040038 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.327793 seconds.
+  path: Assets/Terrain Tile Hex Samples/Tile Samples/base00.png
+  artifactKey: Guid(591295cd5f5d94941a03995981cb232c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain Tile Hex Samples/Tile Samples/base00.png using Guid(591295cd5f5d94941a03995981cb232c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '702db3d5da00a180c4de198133090b96') in 0.024096 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 211.525948 seconds.
+  path: Assets/Terrain Tile Hex Samples/Tile Samples/plains00.png
+  artifactKey: Guid(da3e6bbb84c179140bc2ea270b6958bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain Tile Hex Samples/Tile Samples/plains00.png using Guid(da3e6bbb84c179140bc2ea270b6958bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e23ab205ff103ccf3efde8bd2d478045') in 0.025446 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 63.855602 seconds.
+  path: Assets/Terrain Tile Hex Samples/Tile Samples/plains00.png
+  artifactKey: Guid(da3e6bbb84c179140bc2ea270b6958bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain Tile Hex Samples/Tile Samples/plains00.png using Guid(da3e6bbb84c179140bc2ea270b6958bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77e26ea72f30b53adfe70f2cb0581370') in 0.026103 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 43.987400 seconds.
+  path: Assets/Terrain Tile Hex Samples/Tile Samples/plains00.png
+  artifactKey: Guid(da3e6bbb84c179140bc2ea270b6958bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain Tile Hex Samples/Tile Samples/plains00.png using Guid(da3e6bbb84c179140bc2ea270b6958bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b35342f6c4618bdb79c69ba513b3abd') in 0.024892 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 15.591996 seconds.
+  path: Assets/Terrain Tile Hex Samples/Tile Samples/plains00.png
+  artifactKey: Guid(da3e6bbb84c179140bc2ea270b6958bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain Tile Hex Samples/Tile Samples/plains00.png using Guid(da3e6bbb84c179140bc2ea270b6958bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b2817647852083f20385bcc5c400266') in 0.027639 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 20.614255 seconds.
+  path: Assets/Terrain Tile Hex Samples/Tile Samples/plains00.png
+  artifactKey: Guid(da3e6bbb84c179140bc2ea270b6958bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain Tile Hex Samples/Tile Samples/plains00.png using Guid(da3e6bbb84c179140bc2ea270b6958bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bfb3ca66a517ef5069728d85b8a2a69') in 0.029558 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 15.655414 seconds.
+  path: Assets/Terrain Tile Hex Samples/Tile Samples/plains00.png
+  artifactKey: Guid(da3e6bbb84c179140bc2ea270b6958bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain Tile Hex Samples/Tile Samples/plains00.png using Guid(da3e6bbb84c179140bc2ea270b6958bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50d5971075efa868fc2f6bc65a57a8ed') in 0.030746 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 25.371717 seconds.
+  path: Assets/Terrain Tile Hex Samples/Tile Samples/plains00.png
+  artifactKey: Guid(da3e6bbb84c179140bc2ea270b6958bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain Tile Hex Samples/Tile Samples/plains00.png using Guid(da3e6bbb84c179140bc2ea270b6958bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3d1dfd76895a1c6688b48ecdf1ffc72') in 0.025474 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 24.292092 seconds.
+  path: Assets/Terrain Tile Hex Samples/Tile Samples/plains00.png
+  artifactKey: Guid(da3e6bbb84c179140bc2ea270b6958bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain Tile Hex Samples/Tile Samples/plains00.png using Guid(da3e6bbb84c179140bc2ea270b6958bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '337b37963d1fee40e291833735545d47') in 0.039085 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 15.444604 seconds.
+  path: Assets/Terrain Tile Hex Samples/Tile Samples/plains00.png
+  artifactKey: Guid(da3e6bbb84c179140bc2ea270b6958bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain Tile Hex Samples/Tile Samples/plains00.png using Guid(da3e6bbb84c179140bc2ea270b6958bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94b4e64c9904238f865de902f3441558') in 0.028142 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.513476 seconds.
+  path: Assets/Terrain Tile Hex Samples/Tile Samples/plains00.png
+  artifactKey: Guid(da3e6bbb84c179140bc2ea270b6958bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain Tile Hex Samples/Tile Samples/plains00.png using Guid(da3e6bbb84c179140bc2ea270b6958bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4fff235dc78706effd681813cdb14f0') in 0.031800 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 20.307658 seconds.
+  path: Assets/Terrain Tile Hex Samples/Tile Samples/plains00.png
+  artifactKey: Guid(da3e6bbb84c179140bc2ea270b6958bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain Tile Hex Samples/Tile Samples/plains00.png using Guid(da3e6bbb84c179140bc2ea270b6958bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0b64153b60db62e84d5d250a7173846') in 0.034065 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 19.931737 seconds.
+  path: Assets/Terrain Tile Hex Samples/Tile Samples/plains00.png
+  artifactKey: Guid(da3e6bbb84c179140bc2ea270b6958bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain Tile Hex Samples/Tile Samples/plains00.png using Guid(da3e6bbb84c179140bc2ea270b6958bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd686feea1b108193fab6378226565ff') in 0.025409 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 48.955239 seconds.
+  path: Assets/Terrain Tile Hex Samples/Tile Samples/plains00.png
+  artifactKey: Guid(da3e6bbb84c179140bc2ea270b6958bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain Tile Hex Samples/Tile Samples/plains00.png using Guid(da3e6bbb84c179140bc2ea270b6958bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f387120005e9cadd27522168a5e79fc4') in 0.032845 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 53.851400 seconds.
+  path: Assets/Terrain Tile Hex Samples/Tile Samples/forestBroadleaf00.png
+  artifactKey: Guid(089ec694c2f50a748a5f490fa5616b5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain Tile Hex Samples/Tile Samples/forestBroadleaf00.png using Guid(089ec694c2f50a748a5f490fa5616b5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd679e9155c28d22ae29cb5cc3e0ee710') in 0.035750 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 36.013066 seconds.
+  path: Assets/Terrain Tile Hex Samples/Tile Samples/forestBroadleaf00.png
+  artifactKey: Guid(089ec694c2f50a748a5f490fa5616b5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain Tile Hex Samples/Tile Samples/forestBroadleaf00.png using Guid(089ec694c2f50a748a5f490fa5616b5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b61684b75d68ef3266d81c665f283894') in 0.039189 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 78.028149 seconds.
+  path: Assets/Terrain Tile Hex Samples/Tile Samples/oceanCalm00.png
+  artifactKey: Guid(65f97617738bdcf40b2c6a3cc6fed0e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain Tile Hex Samples/Tile Samples/oceanCalm00.png using Guid(65f97617738bdcf40b2c6a3cc6fed0e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9429e2638e39178b8a04c642f5b1841') in 0.037683 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 21.935981 seconds.
+  path: Assets/Terrain Tile Hex Samples/Tile Samples/forestPineSnowCovered00.png
+  artifactKey: Guid(3efcbae0e04ff3f489b733d0a82966d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain Tile Hex Samples/Tile Samples/forestPineSnowCovered00.png using Guid(3efcbae0e04ff3f489b733d0a82966d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '281485e0dcb0b6123a0f4aabca95d53a') in 0.036859 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 31.407469 seconds.
+  path: Assets/Terrain Tile Hex Samples/Tile Samples/plains_castle00.png
+  artifactKey: Guid(97c990d13571d614c9f638ee4e0a3473) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain Tile Hex Samples/Tile Samples/plains_castle00.png using Guid(97c990d13571d614c9f638ee4e0a3473) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '176a32c9a6b740f2c7cabddecc97f5dc') in 0.038310 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 28.144175 seconds.
+  path: Assets/Terrain Tile Hex Samples/Tile Samples/plains_castle00.png
+  artifactKey: Guid(97c990d13571d614c9f638ee4e0a3473) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain Tile Hex Samples/Tile Samples/plains_castle00.png using Guid(97c990d13571d614c9f638ee4e0a3473) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7062189bc63e803446c10da1710d0ed') in 0.039557 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 22.665595 seconds.
+  path: Assets/Terrain Tile Hex Samples/Tile Samples/plains_castle00.png
+  artifactKey: Guid(97c990d13571d614c9f638ee4e0a3473) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain Tile Hex Samples/Tile Samples/plains_castle00.png using Guid(97c990d13571d614c9f638ee4e0a3473) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '011886bb777c7a32e1471e1209996923') in 0.033936 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.217741 seconds.
+  path: Assets/Terrain Tile Hex Samples/Tile Samples/plains_castle00.png
+  artifactKey: Guid(97c990d13571d614c9f638ee4e0a3473) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain Tile Hex Samples/Tile Samples/plains_castle00.png using Guid(97c990d13571d614c9f638ee4e0a3473) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '442f4301c2963f51d53a86014bdf4d81') in 0.037412 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.311642 seconds.
+  path: Assets/Terrain Tile Hex Samples/Tile Samples/plains_castle00.png
+  artifactKey: Guid(97c990d13571d614c9f638ee4e0a3473) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain Tile Hex Samples/Tile Samples/plains_castle00.png using Guid(97c990d13571d614c9f638ee4e0a3473) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ccfe66140fc4578dadd8c161339d944') in 0.037604 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.764583 seconds.
+  path: Assets/Terrain Tile Hex Samples/Tile Samples/plains_castle00.png
+  artifactKey: Guid(97c990d13571d614c9f638ee4e0a3473) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain Tile Hex Samples/Tile Samples/plains_castle00.png using Guid(97c990d13571d614c9f638ee4e0a3473) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79393daf7950000023697da5bcb963a9') in 0.037248 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.895025 seconds.
+  path: Assets/Terrain Tile Hex Samples/Tile Samples/plains_castle00.png
+  artifactKey: Guid(97c990d13571d614c9f638ee4e0a3473) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain Tile Hex Samples/Tile Samples/plains_castle00.png using Guid(97c990d13571d614c9f638ee4e0a3473) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb66409de4dbc170c9309a1a82f0cae7') in 0.034451 seconds 
+>>>>>>> Stashed changes

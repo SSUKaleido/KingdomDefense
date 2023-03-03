@@ -376,6 +376,15 @@
 "Assets/Cainos/Pixel Art Top Down - Basic/Script/PropsAltar.cs"
 "Assets/Cainos/Pixel Art Top Down - Basic/Script/SpriteColorAnimation.cs"
 "Assets/Cainos/Pixel Art Top Down - Basic/Script/TopDownCharacterController.cs"
+"Assets/Scripts/MatchManager.cs"
+"Assets/Scripts/Unit/Unit.cs"
+"Assets/SPUM/Sample/Script/PlayerManager.cs"
+"Assets/SPUM/Sample/Script/PlayerObj.cs"
+"Assets/SPUM/Script/Ect/SpritePos.cs"
+"Assets/SPUM/Script/SPUM_Button.cs"
+"Assets/SPUM/Script/SPUM_HorseSpriteList.cs"
+"Assets/SPUM/Script/SPUM_Prefabs.cs"
+"Assets/SPUM/Script/SPUM_SpriteList.cs"
 -langversion:9.0
 
 /deterministic

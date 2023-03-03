@@ -7,13 +7,13 @@ public class MatchManager : MonoBehaviour
     public GameObject unitPrefab;
 
     Vector3 MousePosition;
-    Camera MainCam;
+    Camera mainCam;
     public Unit.ElementType elementType;
 
     // Start is called before the first frame update
     void Start()
     {
-        MainCam = Camera.main;
+        mainCam = Camera.main;
     }
 
     // Update is called once per frame

@@ -1,0 +1,247 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.16f1 (4016570cf34f) revision 4200023'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22000) 64bit Core' Language: 'ko' Physical Memory: 16092 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.16f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker3
+-projectPath
+C:/Users/raina/OneDrive/바탕 화면/KingdomDefense/KingdomDefense
+-logFile
+Logs/AssetImportWorker3.log
+-srvPort
+51286
+Successfully changed project path to: C:/Users/raina/OneDrive/바탕 화면/KingdomDefense/KingdomDefense
+C:/Users/raina/OneDrive/바탕 화면/KingdomDefense/KingdomDefense
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [46064] Host "[IP] 192.168.0.4 [Port] 0 [Flags] 2 [Guid] 2937149381 [EditorId] 2937149381 [Version] 1048832 [Id] WindowsEditor(7,�׷���) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [46064] Host "[IP] 192.168.0.4 [Port] 0 [Flags] 2 [Guid] 2937149381 [EditorId] 2937149381 [Version] 1048832 [Id] WindowsEditor(7,�׷���) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 95.47 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.16f1 (4016570cf34f)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/raina/OneDrive/바탕 화면/KingdomDefense/KingdomDefense/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) Iris(R) Xe Graphics (ID=0x9a49)
+    Vendor:   Intel
+    VRAM:     8046 MB
+    Driver:   30.0.100.9836
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56524
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.011423 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 86.04 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.626 seconds
+Domain Reload Profiling:
+	ReloadAssembly (626ms)
+		BeginReloadAssembly (93ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (409ms)
+			LoadAssemblies (89ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (90ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (28ms)
+			SetupLoadedEditorAssemblies (243ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (86ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (101ms)
+				ProcessInitializeOnLoadMethodAttributes (46ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.015768 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\raina\OneDrive\바탕 화면\KingdomDefense\KingdomDefense\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\raina\OneDrive\바탕 화면\KingdomDefense\KingdomDefense\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 87.36 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.161 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1162ms)
+		BeginReloadAssembly (136ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (19ms)
+		EndReloadAssembly (901ms)
+			LoadAssemblies (137ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (220ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (47ms)
+			SetupLoadedEditorAssemblies (477ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (87ms)
+				BeforeProcessingInitializeOnLoad (103ms)
+				ProcessInitializeOnLoadAttributes (227ms)
+				ProcessInitializeOnLoadMethodAttributes (40ms)
+				AfterProcessingInitializeOnLoad (13ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (13ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 0.71 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4052 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 38 unused Assets / (61.8 KB). Loaded Objects now: 4510.
+Memory consumption went from 151.3 MB to 151.3 MB.
+Total: 3.502700 ms (FindLiveObjects: 0.306100 ms CreateObjectMapping: 0.132800 ms MarkObjects: 2.924200 ms  DeleteObjects: 0.138500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1594604.723128 seconds.
+  path: Assets/Terrain Tile Hex Samples/Example Scene/Example Tiles/below_water00.asset
+  artifactKey: Guid(dc135682be138ef49805e6f8615cfa6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain Tile Hex Samples/Example Scene/Example Tiles/below_water00.asset using Guid(dc135682be138ef49805e6f8615cfa6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fcb4b64ed19986fe8dfe1998f1d7ba8e') in 0.128113 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Terrain Tile Hex Samples/Example Scene/Example Tiles/plains_castle00.asset
+  artifactKey: Guid(1e8636c58adbad7449a8d41b6a74989f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain Tile Hex Samples/Example Scene/Example Tiles/plains_castle00.asset using Guid(1e8636c58adbad7449a8d41b6a74989f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b61222af56b1a6382cec7120548af0ab') in 0.023208 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Terrain Tile Hex Samples/Example Scene/Example Tiles/desertYellowCactiForest00.asset
+  artifactKey: Guid(86d8f0e043b0524489a3663d301bf87a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain Tile Hex Samples/Example Scene/Example Tiles/desertYellowCactiForest00.asset using Guid(86d8f0e043b0524489a3663d301bf87a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '512052ab8ab04b423775e59103b94628') in 0.029216 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.421207 seconds.
+  path: Assets/Terrain Tile Hex Samples/Hex Samples/hexForestBroadleaf00.png
+  artifactKey: Guid(fc6b03fca231c9b4b90ddf14e448a387) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain Tile Hex Samples/Hex Samples/hexForestBroadleaf00.png using Guid(fc6b03fca231c9b4b90ddf14e448a387) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e27d5a23588eee1f1b84dbcba4b4acf') in 0.100986 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Terrain Tile Hex Samples/Hex Samples/hexPlains00.png
+  artifactKey: Guid(d8e85e6c9f928394193f3c3839cfd465) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain Tile Hex Samples/Hex Samples/hexPlains00.png using Guid(d8e85e6c9f928394193f3c3839cfd465) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b4e3f18bca9c6e8cf0a6a0a1f949beb') in 0.036077 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Terrain Tile Hex Samples/Hex Samples/hexUnderDirt00.png
+  artifactKey: Guid(1520d4794d33e5f458ffbd1ba893e903) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain Tile Hex Samples/Hex Samples/hexUnderDirt00.png using Guid(1520d4794d33e5f458ffbd1ba893e903) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fa4fa4578d211352357d379bcff333d') in 0.037675 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Terrain Tile Hex Samples/Hex Samples/hexJungle00.png
+  artifactKey: Guid(eca001d9be59f2444b8d4d92c24cea37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain Tile Hex Samples/Hex Samples/hexJungle00.png using Guid(eca001d9be59f2444b8d4d92c24cea37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f1a05b869dbd3dfe82b1164e8c5420f') in 0.042196 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 65.959453 seconds.
+  path: Assets/Grid Example/Grid_Forest.prefab
+  artifactKey: Guid(3f009aec0a7b2344eaf35e57d2e7d161) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Grid Example/Grid_Forest.prefab using Guid(3f009aec0a7b2344eaf35e57d2e7d161) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6440d5bc7bf4e4e3f9912a6aaaed2ca6') in 0.115706 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 636.109385 seconds.
+  path: Assets/Terrain Tile Hex Samples/Tile Samples/below_dirt00.png
+  artifactKey: Guid(ac3b9336e27c3f1458c6eb4f97a99718) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain Tile Hex Samples/Tile Samples/below_dirt00.png using Guid(ac3b9336e27c3f1458c6eb4f97a99718) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9fe2a24429cbd0d145348f646a17f51') in 0.048031 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Terrain Tile Hex Samples/Tile Samples/forestPineSnowCovered00.png
+  artifactKey: Guid(3efcbae0e04ff3f489b733d0a82966d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain Tile Hex Samples/Tile Samples/forestPineSnowCovered00.png using Guid(3efcbae0e04ff3f489b733d0a82966d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9b7f10bdf968379ab13553a95cdea29') in 0.070737 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Terrain Tile Hex Samples/Tile Samples/plains00.png
+  artifactKey: Guid(da3e6bbb84c179140bc2ea270b6958bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain Tile Hex Samples/Tile Samples/plains00.png using Guid(da3e6bbb84c179140bc2ea270b6958bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '929a77447a250dddd6b1fb79c9860f70') in 0.056767 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/Terrain Tile Hex Samples/Tile Samples/forestBroadleaf00.png
+  artifactKey: Guid(089ec694c2f50a748a5f490fa5616b5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain Tile Hex Samples/Tile Samples/forestBroadleaf00.png using Guid(089ec694c2f50a748a5f490fa5616b5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa5ac376c41cd1315bfe33a3a7fd2352') in 0.059410 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Terrain Tile Hex Samples/Tile Samples/volcanoActive00.png
+  artifactKey: Guid(7ae31a8180ce39742905ed117198b940) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain Tile Hex Samples/Tile Samples/volcanoActive00.png using Guid(7ae31a8180ce39742905ed117198b940) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d6f85455304fc50ffe9fa51f2d74cae') in 0.086005 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/Terrain Tile Hex Samples/Tile Samples/mountain00.png
+  artifactKey: Guid(655d1825cbe189d4d97a48fbae36bdbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain Tile Hex Samples/Tile Samples/mountain00.png using Guid(655d1825cbe189d4d97a48fbae36bdbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f17fbdafcd186e715a5312ef4cb6166') in 0.116986 seconds 

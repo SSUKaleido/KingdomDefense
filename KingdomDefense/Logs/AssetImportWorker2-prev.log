@@ -1,0 +1,449 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.16f1 (4016570cf34f) revision 4200023'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22000) 64bit Core' Language: 'ko' Physical Memory: 16092 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.16f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker2
+-projectPath
+C:/Users/raina/OneDrive/바탕 화면/KingdomDefense/KingdomDefense
+-logFile
+Logs/AssetImportWorker2.log
+-srvPort
+51286
+Successfully changed project path to: C:/Users/raina/OneDrive/바탕 화면/KingdomDefense/KingdomDefense
+C:/Users/raina/OneDrive/바탕 화면/KingdomDefense/KingdomDefense
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [38016] Host "[IP] 192.168.0.4 [Port] 0 [Flags] 2 [Guid] 2754309696 [EditorId] 2754309696 [Version] 1048832 [Id] WindowsEditor(7,�׷���) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [38016] Host "[IP] 192.168.0.4 [Port] 0 [Flags] 2 [Guid] 2754309696 [EditorId] 2754309696 [Version] 1048832 [Id] WindowsEditor(7,�׷���) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 113.83 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.16f1 (4016570cf34f)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/raina/OneDrive/바탕 화면/KingdomDefense/KingdomDefense/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) Iris(R) Xe Graphics (ID=0x9a49)
+    Vendor:   Intel
+    VRAM:     8046 MB
+    Driver:   30.0.100.9836
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56896
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.16f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.010126 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 103.21 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.775 seconds
+Domain Reload Profiling:
+	ReloadAssembly (775ms)
+		BeginReloadAssembly (105ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (524ms)
+			LoadAssemblies (102ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (131ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (26ms)
+			SetupLoadedEditorAssemblies (307ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (103ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (144ms)
+				ProcessInitializeOnLoadMethodAttributes (48ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.016880 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\raina\OneDrive\바탕 화면\KingdomDefense\KingdomDefense\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\raina\OneDrive\바탕 화면\KingdomDefense\KingdomDefense\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 85.11 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.159 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1160ms)
+		BeginReloadAssembly (125ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (19ms)
+		EndReloadAssembly (908ms)
+			LoadAssemblies (124ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (221ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (49ms)
+			SetupLoadedEditorAssemblies (476ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (85ms)
+				BeforeProcessingInitializeOnLoad (102ms)
+				ProcessInitializeOnLoadAttributes (225ms)
+				ProcessInitializeOnLoadMethodAttributes (46ms)
+				AfterProcessingInitializeOnLoad (11ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 0.70 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4052 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 38 unused Assets / (61.8 KB). Loaded Objects now: 4510.
+Memory consumption went from 151.3 MB to 151.3 MB.
+Total: 4.204000 ms (FindLiveObjects: 0.304200 ms CreateObjectMapping: 0.115000 ms MarkObjects: 3.644300 ms  DeleteObjects: 0.124800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1594483.095976 seconds.
+  path: Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Plant/PF Flower.prefab
+  artifactKey: Guid(c6d86ec8825b7674a9736d1cb0cd98a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Plant/PF Flower.prefab using Guid(c6d86ec8825b7674a9736d1cb0cd98a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'deb4d30c867b7212b3a24dd6b1ee7295') in 0.175081 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Plant/PF Grass M.prefab
+  artifactKey: Guid(c5c395a83c3338d46bd52e936cf46245) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Plant/PF Grass M.prefab using Guid(c5c395a83c3338d46bd52e936cf46245) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e56b8c565ead43c0d4ced4043a066c33') in 0.036391 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Plant/PF Grass C.prefab
+  artifactKey: Guid(403080d7568a4f949b4bfc7128477a8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Plant/PF Grass C.prefab using Guid(403080d7568a4f949b4bfc7128477a8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5254a0a42754d58259ac00992ea0baff') in 0.026949 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Plant/PF Grass H.prefab
+  artifactKey: Guid(8c66149e58003104daf96668db118b4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Plant/PF Grass H.prefab using Guid(8c66149e58003104daf96668db118b4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04105e73498b5ad3096aa6813a0b6cc7') in 0.034695 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Plant/PF Props Tree T3.prefab
+  artifactKey: Guid(9e7797bb065982d4497d030f065d6e2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Plant/PF Props Tree T3.prefab using Guid(9e7797bb065982d4497d030f065d6e2f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f63b3944071405ccd55a8330feef0b9') in 0.041166 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Plant/PF Props Bush T2.prefab
+  artifactKey: Guid(5b94bf9107369684a8153921f763da38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Plant/PF Props Bush T2.prefab using Guid(5b94bf9107369684a8153921f763da38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66cf1bafa6df48ecb905315865097a33') in 0.040234 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.068869 seconds.
+  path: Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Gate T1.prefab
+  artifactKey: Guid(4be821d0b78ad5043985b57b738e951b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Gate T1.prefab using Guid(4be821d0b78ad5043985b57b738e951b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95cdb63900bfbebe8e49a520ded4d858') in 0.024596 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Props Brick T2.prefab
+  artifactKey: Guid(5d42979a3c318c341b37b4b1f2c85750) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Props Brick T2.prefab using Guid(5d42979a3c318c341b37b4b1f2c85750) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef9f7091b653e4e0a7e29e784b9cf08b') in 0.030541 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Props Pillar Broken.prefab
+  artifactKey: Guid(cfa0a5ef94fb05d4f97d095a05dc55c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Props Pillar Broken.prefab using Guid(cfa0a5ef94fb05d4f97d095a05dc55c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '20e57b6b820423abb1a5aa9622d49c89') in 0.037814 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Props Pot C.prefab
+  artifactKey: Guid(f3cc2373308c11848977b28d974a9de0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Props Pot C.prefab using Guid(f3cc2373308c11848977b28d974a9de0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd96675dd8c3369474bf0e735fe324e17') in 0.036038 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000068 seconds.
+  path: Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Props Stone Bench S.prefab
+  artifactKey: Guid(8fd7cba4384381e4aad6dc90158fc9d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Props Stone Bench S.prefab using Guid(8fd7cba4384381e4aad6dc90158fc9d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9a737213281b62ef0ada525e0b34549') in 0.037164 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Props Stair Broken L.prefab
+  artifactKey: Guid(6bc7a266104dec640a8bc2ab2e5cd968) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Props Stair Broken L.prefab using Guid(6bc7a266104dec640a8bc2ab2e5cd968) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ac00ee2e82aa6c872bd1a7cc981050e') in 0.045173 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Props Chest.prefab
+  artifactKey: Guid(99597c7b4aa47494fb2b6061505735da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Props Chest.prefab using Guid(99597c7b4aa47494fb2b6061505735da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1a6c4e2a213e01df7a659eeccb7c2c9') in 0.034556 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Props Statue.prefab
+  artifactKey: Guid(d730038d263986f4dac93230e1dd62b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Props Statue.prefab using Guid(d730038d263986f4dac93230e1dd62b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c970f152ab80a819ceddd2ff3fe2f2bb') in 0.037840 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Props Crate.prefab
+  artifactKey: Guid(fb2df5b680b64b449a78162ebcd98e97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Props Crate.prefab using Guid(fb2df5b680b64b449a78162ebcd98e97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8873310479bbad3e45ae1546258fe902') in 0.038852 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Props Stair M.prefab
+  artifactKey: Guid(78e9efbdf9b33994da8dfbe530f65e5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Props Stair M.prefab using Guid(78e9efbdf9b33994da8dfbe530f65e5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aeb1e06bd8a6769d24d40c036efa7d7a') in 0.037403 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Props Pot B.prefab
+  artifactKey: Guid(63ee4b6a40c55fd429759b807832ded1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Props Pot B.prefab using Guid(63ee4b6a40c55fd429759b807832ded1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af1177cf1af60dd51f148abf03f4486e') in 0.038794 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Props Rune Pillar X3.prefab
+  artifactKey: Guid(4fad9c4de6b725a43bb1200ed9479c08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Cainos/Pixel Art Top Down - Basic/Prefab/Props/PF Props Rune Pillar X3.prefab using Guid(4fad9c4de6b725a43bb1200ed9479c08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2706cd1c98f58e3e1aaf50590be563a') in 0.039477 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 28.283076 seconds.
+  path: Assets/Terrain Tile Hex Samples
+  artifactKey: Guid(e76e4fcccb413ad4f9e5df35b8f6eac0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain Tile Hex Samples using Guid(e76e4fcccb413ad4f9e5df35b8f6eac0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc7fef6a9a526a50a5015940ca8dd748') in 0.009323 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 53.901303 seconds.
+  path: Assets/Terrain Tile Hex Samples/Example Scene/Example Hexes/FreeSamplesHex.prefab
+  artifactKey: Guid(0e86bebdc7e116c4e8604993e763a8d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain Tile Hex Samples/Example Scene/Example Hexes/FreeSamplesHex.prefab using Guid(0e86bebdc7e116c4e8604993e763a8d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bef877abbd347ac21910ce4ff80fcdc3') in 0.073750 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Terrain Tile Hex Samples/Example Scene/Example Hexes/HexSpriteAtlas.spriteatlas
+  artifactKey: Guid(2a136d49e6db45a47841f5c722ef9e6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain Tile Hex Samples/Example Scene/Example Hexes/HexSpriteAtlas.spriteatlas using Guid(2a136d49e6db45a47841f5c722ef9e6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc9e6d7f948142b43a62a6c81a2d5be1') in 0.021101 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Terrain Tile Hex Samples/Example Scene/Example Hexes/hexPlains00.asset
+  artifactKey: Guid(71b80c7a431908d4ab5e16412b11a975) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain Tile Hex Samples/Example Scene/Example Hexes/hexPlains00.asset using Guid(71b80c7a431908d4ab5e16412b11a975) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f6c22a666f413c7058e144833e2949e') in 0.046595 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Terrain Tile Hex Samples/Example Scene/Example Hexes/hexMountain00.asset
+  artifactKey: Guid(ff318adc52d4b394787c29852a7e5873) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain Tile Hex Samples/Example Scene/Example Hexes/hexMountain00.asset using Guid(ff318adc52d4b394787c29852a7e5873) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a8f9e7103cd677d962f628728fddf5c') in 0.026480 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Terrain Tile Hex Samples/Example Scene/Example Hexes/hexDesertYellowCactiForest00.asset
+  artifactKey: Guid(b62249a4f94a80b4f8b4294c2e096f36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain Tile Hex Samples/Example Scene/Example Hexes/hexDesertYellowCactiForest00.asset using Guid(b62249a4f94a80b4f8b4294c2e096f36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '424316047b39d27acc6d75a2f813c5df') in 0.028726 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 34.809044 seconds.
+  path: Assets/Terrain Tile Hex Samples/Example Scene/Example Hexes/hexUnderOcean00.asset
+  artifactKey: Guid(f7bf4c8ef33a97a42801942c6767d931) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain Tile Hex Samples/Example Scene/Example Hexes/hexUnderOcean00.asset using Guid(f7bf4c8ef33a97a42801942c6767d931) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee75d57e459da59c1775d703c5055109') in 0.023314 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.240653 seconds.
+  path: Assets/Terrain Tile Hex Samples/Example Scene/Example Tiles/base00.asset
+  artifactKey: Guid(aa07a1ccf900f54429d06ec33af30ab9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain Tile Hex Samples/Example Scene/Example Tiles/base00.asset using Guid(aa07a1ccf900f54429d06ec33af30ab9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd009032ca54e515a4e31d20491bc48b5') in 0.020793 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Terrain Tile Hex Samples/Example Scene/Example Tiles/mountain00.asset
+  artifactKey: Guid(00d601cd3e5d6df4ca65373be16c934d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain Tile Hex Samples/Example Scene/Example Tiles/mountain00.asset using Guid(00d601cd3e5d6df4ca65373be16c934d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f20737bb326e05382e3719ee9709925') in 0.030803 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Terrain Tile Hex Samples/Example Scene/Example Tiles/oceanCalm00.asset
+  artifactKey: Guid(718ab1ce3feed114db83785b89793aab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain Tile Hex Samples/Example Scene/Example Tiles/oceanCalm00.asset using Guid(718ab1ce3feed114db83785b89793aab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28586a0de6525c8760366574199ad10e') in 0.025944 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Terrain Tile Hex Samples/Example Scene/Example Tiles/FreeSamplesTiles.prefab
+  artifactKey: Guid(e9919f512d234e2438c7f57784d606fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain Tile Hex Samples/Example Scene/Example Tiles/FreeSamplesTiles.prefab using Guid(e9919f512d234e2438c7f57784d606fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef5c38a7653697bfb5a20bdf37453c3f') in 0.060915 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Terrain Tile Hex Samples/Example Scene/Example Tiles/volcanoActive00.asset
+  artifactKey: Guid(8f090c07885fc32469f873e967ee0367) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain Tile Hex Samples/Example Scene/Example Tiles/volcanoActive00.asset using Guid(8f090c07885fc32469f873e967ee0367) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ca5d87f1fa0f22c255624f3241a248c') in 0.029024 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.420370 seconds.
+  path: Assets/Terrain Tile Hex Samples/Hex Samples/hexBase00.png
+  artifactKey: Guid(2b4118e0228e32a4293c7541873e1028) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain Tile Hex Samples/Hex Samples/hexBase00.png using Guid(2b4118e0228e32a4293c7541873e1028) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d778ae16acd4d58f9e1d752b0b04a4c') in 0.062141 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Terrain Tile Hex Samples/Hex Samples/hexForestPineSnowCovered00.png
+  artifactKey: Guid(c8985acae6a04d94f860af985498f9f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain Tile Hex Samples/Hex Samples/hexForestPineSnowCovered00.png using Guid(c8985acae6a04d94f860af985498f9f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcaf06bff69c966d1fdf67b11ad7f2ec') in 0.039008 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Terrain Tile Hex Samples/Hex Samples/hexMountain00.png
+  artifactKey: Guid(0d719ec1e98c95640a5cfbafef63dba2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain Tile Hex Samples/Hex Samples/hexMountain00.png using Guid(0d719ec1e98c95640a5cfbafef63dba2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4326a66ffb70aa81233f3cadd3e19636') in 0.045839 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Terrain Tile Hex Samples/Hex Samples/hexVolcanoActive00.png
+  artifactKey: Guid(68f626266e2613e4aa3c23a8237571bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain Tile Hex Samples/Hex Samples/hexVolcanoActive00.png using Guid(68f626266e2613e4aa3c23a8237571bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '140041bc3e09bd973f3c4ef74770a4c7') in 0.050715 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 65.984128 seconds.
+  path: Assets/Grid Example/Grid_Castle.prefab
+  artifactKey: Guid(7658de9614b44564abe210f77b43e203) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Grid Example/Grid_Castle.prefab using Guid(7658de9614b44564abe210f77b43e203) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cbadafb0ec20232ffc83b5d05e7a77a') in 0.016016 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 100.913040 seconds.
+  path: Assets/Grid Example/Grid_Castle.prefab
+  artifactKey: Guid(7658de9614b44564abe210f77b43e203) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Grid Example/Grid_Castle.prefab using Guid(7658de9614b44564abe210f77b43e203) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b21053d1cfe253340d6255e1fe16885') in 0.017726 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.851567 seconds.
+  path: Assets/Grid Example/Grid_Castle.prefab
+  artifactKey: Guid(7658de9614b44564abe210f77b43e203) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Grid Example/Grid_Castle.prefab using Guid(7658de9614b44564abe210f77b43e203) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2f554b3fa9518e463383cf5512a0f1b') in 0.020405 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.569953 seconds.
+  path: Assets/Grid Example/Grid_Castle.prefab
+  artifactKey: Guid(7658de9614b44564abe210f77b43e203) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Grid Example/Grid_Castle.prefab using Guid(7658de9614b44564abe210f77b43e203) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '665f2609deca935d32a3b680c19718d1') in 0.021863 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 178.650563 seconds.
+  path: Assets/Grid Example/Grid_Castle.prefab
+  artifactKey: Guid(7658de9614b44564abe210f77b43e203) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Grid Example/Grid_Castle.prefab using Guid(7658de9614b44564abe210f77b43e203) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c92e7519cbbad1878f384f41f532c524') in 0.027897 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 11.129772 seconds.
+  path: Assets/Grid Example/Grid_Castle.prefab
+  artifactKey: Guid(7658de9614b44564abe210f77b43e203) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Grid Example/Grid_Castle.prefab using Guid(7658de9614b44564abe210f77b43e203) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5edc474911ba4229f55e0c7f7c668505') in 0.021204 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.248008 seconds.
+  path: Assets/Grid Example/Grid_Castle.prefab
+  artifactKey: Guid(7658de9614b44564abe210f77b43e203) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Grid Example/Grid_Castle.prefab using Guid(7658de9614b44564abe210f77b43e203) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1876f3077e2fbbbcbbc6e63542a1c4e0') in 0.020744 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 331.627954 seconds.
+  path: Assets/Terrain Tile Hex Samples/Tile Samples/base00.png
+  artifactKey: Guid(591295cd5f5d94941a03995981cb232c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain Tile Hex Samples/Tile Samples/base00.png using Guid(591295cd5f5d94941a03995981cb232c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93462007ebf5b8b01da741b0360f9a0b') in 0.072608 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000058 seconds.
+  path: Assets/Terrain Tile Hex Samples/Tile Samples/plains_castle00.png
+  artifactKey: Guid(97c990d13571d614c9f638ee4e0a3473) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain Tile Hex Samples/Tile Samples/plains_castle00.png using Guid(97c990d13571d614c9f638ee4e0a3473) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '586a117e9128c45cb13a0b43abddc77c') in 0.070361 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/Terrain Tile Hex Samples/Tile Samples/oceanCalm00.png
+  artifactKey: Guid(65f97617738bdcf40b2c6a3cc6fed0e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain Tile Hex Samples/Tile Samples/oceanCalm00.png using Guid(65f97617738bdcf40b2c6a3cc6fed0e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e18f9b701651bf3c813ca107bb128fcc') in 0.057044 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000054 seconds.
+  path: Assets/Terrain Tile Hex Samples/Tile Samples/desertYellowCactiForest00.png
+  artifactKey: Guid(87c7040ad207a684bac935f806313e07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain Tile Hex Samples/Tile Samples/desertYellowCactiForest00.png using Guid(87c7040ad207a684bac935f806313e07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c36b0a765a8ab086e375f3560821566c') in 0.057899 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Terrain Tile Hex Samples/Tile Samples/jungle00.png
+  artifactKey: Guid(e2e66902c768ff34b9e8637f06b1a595) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain Tile Hex Samples/Tile Samples/jungle00.png using Guid(e2e66902c768ff34b9e8637f06b1a595) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d6a593fbf3ca1f73a9ccafb1a423231') in 0.107621 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Terrain Tile Hex Samples/Tile Samples/below_water00.png
+  artifactKey: Guid(a4b92a0441606bd499fbf36994da18b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Terrain Tile Hex Samples/Tile Samples/below_water00.png using Guid(a4b92a0441606bd499fbf36994da18b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b65899fc63fcc95c613384f41b826fc') in 0.063944 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

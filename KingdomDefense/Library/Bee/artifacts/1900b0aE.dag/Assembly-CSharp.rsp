@@ -378,6 +378,7 @@
 "Assets/Cainos/Pixel Art Top Down - Basic/Script/TopDownCharacterController.cs"
 "Assets/Scripts/MatchManager.cs"
 "Assets/Scripts/Unit/Unit.cs"
+"Assets/Scripts/Unit/UnitDetect.cs"
 "Assets/Scripts/Unit/UnitMove.cs"
 "Assets/SPUM/Sample/Script/PlayerManager.cs"
 "Assets/SPUM/Sample/Script/PlayerObj.cs"

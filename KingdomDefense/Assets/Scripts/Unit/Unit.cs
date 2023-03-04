@@ -7,10 +7,11 @@ public class Unit : MonoBehaviour
     public enum ElementType {
         KD_Normal, KD_Fire, KD_Ice, MO_Normal, MO_Fire, MO_Ice  }
 
-    ElementType elementType;
+    public ElementType elementType;
     Camera mainCam;
 
     UnitMove unitMove;
+    UnitDetect unitDetect;
 
 
     public void Initialize(ElementType elementInput) {
@@ -19,6 +20,7 @@ public class Unit : MonoBehaviour
 
     void Start() {
         unitMove = GetComponent<UnitMove>();
+        unitDetect = GetComponent<UnitDetect>();
         mainCam = Camera.main;
     }
 
@@ -27,6 +29,7 @@ public class Unit : MonoBehaviour
     {
         unitMove.Move(elementType);
         isOnScreen();
+        unitDetect.Detect();
     }
 
 

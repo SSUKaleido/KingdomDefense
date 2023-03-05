@@ -4,19 +4,19 @@ using UnityEngine;
 
 public class Unit : MonoBehaviour
 {
+    /*  유닛의 속성과 진영을 결정짓는 열거형  */
     public enum ElementType {
         KD_Normal, KD_Fire, KD_Ice, MO_Normal, MO_Fire, MO_Ice
     }
-
     public ElementType elementType;
-    public bool isDead = false;
 
+    /* 메인 카메라와 부속 스크립트 컴포넌트  */
     private Camera mainCamera;
     private UnitMove unitMove;
     private UnitDetect unitDetect;
-    private GameObject closestEnemy = null;
 
-    [SerializeField] private float delay = 0.25f;
+    private GameObject closestEnemy = null;
+    [SerializeField] private const float delay = 0.25f;
 
     public void Initialize(ElementType elementInput) {
         elementType = elementInput;
@@ -33,7 +33,10 @@ public class Unit : MonoBehaviour
     }
 
     private void Update() {
-        unitMove.MoveUnit(elementType);
+        if (closestEnemy == null)
+            unitMove.MoveUnitToForward(elementType);
+        else if (closestEnemy != null)
+            unitMove.MoveUnitToEnemy(closestEnemy.transform);
     }
 
     private IEnumerator PerformNextBehavior(float delay)  {
@@ -45,6 +48,7 @@ public class Unit : MonoBehaviour
         }
     }
 
+    /* 카메라 범위 안에 있는 지 확인하여 나갔으면 제거  */
     private void CheckIsOnScreen()  {
         Vector3 screenPoint = mainCamera.WorldToViewportPoint(transform.position);
         if (screenPoint.x < 0 || screenPoint.x > 1 || screenPoint.y < 0 || screenPoint.y > 1)

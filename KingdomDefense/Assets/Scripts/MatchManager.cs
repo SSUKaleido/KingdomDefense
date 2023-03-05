@@ -32,5 +32,22 @@ public class MatchManager : MonoBehaviour
             GameObject NewUnit = Instantiate(unitPrefab, new Vector3(MousePosition.x, MousePosition.y, 1), Quaternion.identity);
             NewUnit.GetComponent<Unit>().Initialize(elementType);
         }
+
+        if (Input.GetKeyDown(KeyCode.Q)) {
+            MousePosition = Input.mousePosition;
+            MousePosition = Camera.main.ScreenToWorldPoint(MousePosition);
+
+            /*  Instantiate() 메서드로 소환한 후 Initalize() 메서드를 호출해주어야 함  */
+            GameObject NewUnit = Instantiate(unitPrefab, new Vector3(MousePosition.x, MousePosition.y, 1), Quaternion.identity);
+            NewUnit.GetComponent<Unit>().Initialize(Unit.ElementType.KD_Normal);
+        }
+        if (Input.GetKeyDown(KeyCode.W)) {
+            MousePosition = Input.mousePosition;
+            MousePosition = Camera.main.ScreenToWorldPoint(MousePosition);
+
+            /*  Instantiate() 메서드로 소환한 후 Initalize() 메서드를 호출해주어야 함  */
+            GameObject NewUnit = Instantiate(unitPrefab, new Vector3(MousePosition.x, MousePosition.y, 1), Quaternion.identity);
+            NewUnit.GetComponent<Unit>().Initialize(Unit.ElementType.MO_Normal);
+        }
     }
 }

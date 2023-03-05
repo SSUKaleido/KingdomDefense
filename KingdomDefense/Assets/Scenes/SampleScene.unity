@@ -238,7 +238,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   unitPrefab: {fileID: 2036082625017356567, guid: 31824d8cbe9deb34b8b4e0b8e6cec6a1,
     type: 3}
-  elementType: 0
+  elementType: 1
+  jobType: 2
 --- !u!4 &831486786
 Transform:
   m_ObjectHideFlags: 0

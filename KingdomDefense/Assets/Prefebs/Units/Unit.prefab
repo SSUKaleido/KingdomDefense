@@ -894,6 +894,7 @@ GameObject:
   - component: {fileID: 1751653632620376386}
   - component: {fileID: 7912990772681839570}
   - component: {fileID: 2929947004514948491}
+  - component: {fileID: 2389720536398414012}
   m_Layer: 20
   m_Name: Unit
   m_TagString: Unit
@@ -977,6 +978,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   elementType: 0
+  jobType: 0
+  hp: 0
+  adjoinEnemy: {fileID: 0}
 --- !u!114 &7912990772681839570
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1003,6 +1007,18 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   DetectionRadius: 2
+--- !u!114 &2389720536398414012
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2036082625017356567}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d7bb791d94087b24dad6f5629094fd96, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2087424433633562403
 GameObject:
   m_ObjectHideFlags: 0

@@ -966,6 +966,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8bab9275f88cc0042a47463674646f8f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  elementType: 0
+  delay: 0.25
 --- !u!114 &7912990772681839570
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -991,6 +993,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 209e15b4a97358d4e897936c40bb7385, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  KingdomCastle: {fileID: 8057955679918285268, guid: 5e764273a2da2ae49bba568296441f6a,
+    type: 3}
+  MonsterCastle: {fileID: 7996275720417369804, guid: 44ec0bfbabb032e41b0822559698bfc2,
+    type: 3}
+  DetectionRadius: 2
 --- !u!1 &2087424433633562403
 GameObject:
   m_ObjectHideFlags: 0

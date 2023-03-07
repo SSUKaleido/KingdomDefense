@@ -35,11 +35,8 @@ public class UnitDetect : MonoBehaviour
             }
         }
 
-        if (closestEnemy != null) {
-            if (closestDistance < 0.8f)
-                unit.isAdjoinWithEnemy = true;
+        if (closestEnemy != null)
             return closestEnemy.gameObject;
-        }
         return null;
     }
 

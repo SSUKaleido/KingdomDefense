@@ -14,15 +14,8 @@ public class Unit : MonoBehaviour
         MO_Fire = 1 << 4,
         MO_Ice = 1 << 5
     }
-    /*  유닛의 직업을 결정짓는 열거형  */
-    [Flags] public enum JobType {
-        Building = 1 << 0,
-        Warrior = 1 << 1,
-        Achor = 1 << 2
-    }
 
     public ElementType elementType;
-    public JobType jobType;
     public int hp;
 
     /* 메인 카메라와 부속 스크립트 컴포넌트  */
@@ -30,29 +23,17 @@ public class Unit : MonoBehaviour
     private UnitMove unitMove;
     private UnitDetect unitDetect;
     private UnitBattle unitBattle;
+    private Animator animator;
 
     private GameObject closestEnemy = null;
     public bool isAdjoinWithEnemy = false;
-    private const float delay = 0.25f;
 
-    public void Initialize(ElementType elementInput, JobType jobInput) {
+    private const float delay = 0.25f;
+    private const float detectRange = 1f;
+
+    public void Initialize(ElementType elementInput) {
         elementType = elementInput;
-        jobType = jobInput;
-        
-        switch (jobInput) {
-            case JobType.Building:
-                hp = 40;
-                break;
-            case JobType.Warrior:
-                hp = 20;
-                break;
-            case JobType.Achor:
-                hp = 10;
-                break;
-            default:
-                Debug.LogWarning($"Unknown JobType: {jobInput}");
-                break;
-        }
+        hp = 20;
     }
 
     private void Awake() {
@@ -60,6 +41,7 @@ public class Unit : MonoBehaviour
         unitMove = GetComponent<UnitMove>();
         unitDetect = GetComponent<UnitDetect>();
         unitBattle = GetComponent<UnitBattle>();
+        animator = GetComponent<Animator>();
     }
 
     private void Start() {
@@ -78,9 +60,11 @@ public class Unit : MonoBehaviour
             CheckIsOnScreen();
             if (isAdjoinWithEnemy == false) {
                 closestEnemy = unitDetect.FindClosestEnemy();
+                if (closestEnemy != null && Vector2.Distance(transform.position, closestEnemy.transform.position) < detectRange)
+                    isAdjoinWithEnemy = true;
             }
             else if (isAdjoinWithEnemy == true)
-                Debug.Log("Battle!");
+                animator.SetTrigger("WarriorAttack");
 
             yield return new WaitForSeconds(delay);
         }

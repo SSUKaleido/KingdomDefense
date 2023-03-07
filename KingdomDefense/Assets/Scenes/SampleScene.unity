@@ -236,10 +236,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1762fcbb3230f7246b8e630cfac74345, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  unitPrefab: {fileID: 2036082625017356567, guid: 31824d8cbe9deb34b8b4e0b8e6cec6a1,
+  unitPrefab: {fileID: 6276865617266629187, guid: d7f999cb666ac334caac25297208aa86,
     type: 3}
   elementType: 1
-  jobType: 2
 --- !u!4 &831486786
 Transform:
   m_ObjectHideFlags: 0

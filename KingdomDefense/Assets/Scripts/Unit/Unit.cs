@@ -6,7 +6,8 @@ using System;
 public class Unit : MonoBehaviour
 {
     /*  유닛의 속성과 진영을 결정짓는 열거형, 비트마스크 사용  */
-    [Flags] public enum ElementType {
+    [Flags] public enum ElementType
+    {
         KD_Normal = 1 << 0,
         KD_Fire = 1 << 1,
         KD_Ice = 1 << 2,
@@ -31,12 +32,14 @@ public class Unit : MonoBehaviour
     private const float delay = 0.25f;
     private const float detectRange = 1f;
 
-    public void Initialize(ElementType elementInput) {
+    public void Initialize(ElementType elementInput)
+    {
         elementType = elementInput;
         hp = 20;
     }
 
-    private void Awake() {
+    private void Awake()
+    {
         mainCamera = Camera.main;
         unitMove = GetComponent<UnitMove>();
         unitDetect = GetComponent<UnitDetect>();
@@ -44,34 +47,49 @@ public class Unit : MonoBehaviour
         animator = GetComponent<Animator>();
     }
 
-    private void Start() {
-        StartCoroutine(PerformNextBehavior(delay));
+    private void Start()
+    {
+        StartCoroutine(PerformNextBehavior());
     }
 
     private void Update() {
-        if (closestEnemy == null && isAdjoinWithEnemy == false)
-            unitMove.MoveUnitToForward(elementType);
-        else if (closestEnemy != null && isAdjoinWithEnemy == false)
-            unitMove.MoveUnitToEnemy(closestEnemy.transform);
+        if (hp > 0) {
+            unitMove.MoveUnit(elementType, closestEnemy, isAdjoinWithEnemy);
+        }
+        else
+            unitBattle.DieUnit(animator);
     }
 
-    private IEnumerator PerformNextBehavior(float delay)  {
-        while (true)  {
+    private IEnumerator PerformNextBehavior()
+    {
+        while (true)
+        {
+            float eachDelay = delay;
             CheckIsOnScreen();
-            if (isAdjoinWithEnemy == false) {
+
+            if (closestEnemy != null && Vector2.Distance(transform.position, closestEnemy.transform.position) > detectRange)
+                isAdjoinWithEnemy = false;
+
+            if (isAdjoinWithEnemy == false && hp > 0)
+            {
                 closestEnemy = unitDetect.FindClosestEnemy();
-                if (closestEnemy != null && Vector2.Distance(transform.position, closestEnemy.transform.position) < detectRange)
+                
+                if (closestEnemy != null && Vector2.Distance(transform.position, closestEnemy.transform.position) <= detectRange)
                     isAdjoinWithEnemy = true;
             }
-            else if (isAdjoinWithEnemy == true)
-                animator.SetTrigger("WarriorAttack");
+            else if (isAdjoinWithEnemy == true && hp > 0)
+            {
+                isAdjoinWithEnemy = unitBattle.AttackEnemy(closestEnemy);
+                eachDelay = unitBattle.AttackAnimation(animator);
+            }
 
-            yield return new WaitForSeconds(delay);
+            yield return new WaitForSeconds(eachDelay);
         }
     }
 
     /* 카메라 범위 안에 있는 지 확인하여 나갔으면 제거  */
-    private void CheckIsOnScreen()  {
+    private void CheckIsOnScreen()
+    {
         Vector3 screenPoint = mainCamera.WorldToViewportPoint(transform.position);
         if (screenPoint.x < 0 || screenPoint.x > 1 || screenPoint.y < 0 || screenPoint.y > 1)
             Destroy(gameObject);

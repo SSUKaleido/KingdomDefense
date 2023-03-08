@@ -1494,6 +1494,11 @@ GameObject:
   - component: {fileID: 940319878409253469}
   - component: {fileID: 6993443308469884699}
   - component: {fileID: 3942127499766504450}
+  - component: {fileID: -1752085673990318093}
+  - component: {fileID: -7012285767263910395}
+  - component: {fileID: 39734837331954492}
+  - component: {fileID: -1180049359176750991}
+  - component: {fileID: -4567237492025175936}
   m_Layer: 20
   m_Name: IceAchor
   m_TagString: Unit
@@ -1549,6 +1554,71 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
+--- !u!114 &-1752085673990318093
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3943464895445287996}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 629719337098cd24aa6a14726dde6ae1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  elementType: 8
+  hp: 10
+--- !u!114 &-7012285767263910395
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3943464895445287996}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a80eba919a2781498bbbbe82e69554e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &39734837331954492
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3943464895445287996}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e652a3d52aa66724c96159a6b295a196, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  attackDamage: 2
+--- !u!114 &-1180049359176750991
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3943464895445287996}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 209e15b4a97358d4e897936c40bb7385, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  DetectionRadius: 5
+--- !u!114 &-4567237492025175936
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3943464895445287996}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eed52ccf132fc27448202732dde8e7e9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 2
 --- !u!1 &4182767337220650376
 GameObject:
   m_ObjectHideFlags: 0

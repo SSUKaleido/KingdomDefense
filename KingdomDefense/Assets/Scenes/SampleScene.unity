@@ -444,7 +444,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   unitPrefab: {fileID: 6276865617266629187, guid: d7f999cb666ac334caac25297208aa86,
     type: 3}
-  elementType: 1
 --- !u!4 &831486786
 Transform:
   m_ObjectHideFlags: 0
@@ -480,17 +479,17 @@ PrefabInstance:
     - target: {fileID: 6276865617266629184, guid: d7f999cb666ac334caac25297208aa86,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.31793833
+      value: -3.25
       objectReference: {fileID: 0}
     - target: {fileID: 6276865617266629184, guid: d7f999cb666ac334caac25297208aa86,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.20668444
+      value: -3.11
       objectReference: {fileID: 0}
     - target: {fileID: 6276865617266629184, guid: d7f999cb666ac334caac25297208aa86,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 8
+      value: 8.05
       objectReference: {fileID: 0}
     - target: {fileID: 6276865617266629184, guid: d7f999cb666ac334caac25297208aa86,
         type: 3}
@@ -687,17 +686,17 @@ PrefabInstance:
     - target: {fileID: 1838308230191282219, guid: bc30ccd5ea4830841b2a5263ba3b4e9b,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 1.4
+      value: -3.3
       objectReference: {fileID: 0}
     - target: {fileID: 1838308230191282219, guid: bc30ccd5ea4830841b2a5263ba3b4e9b,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -2.54
+      value: 2.11
       objectReference: {fileID: 0}
     - target: {fileID: 1838308230191282219, guid: bc30ccd5ea4830841b2a5263ba3b4e9b,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 8.02
+      value: 8.1
       objectReference: {fileID: 0}
     - target: {fileID: 1838308230191282219, guid: bc30ccd5ea4830841b2a5263ba3b4e9b,
         type: 3}
@@ -738,6 +737,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: MonsterWarrior_1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6017250297449890562, guid: bc30ccd5ea4830841b2a5263ba3b4e9b,
+        type: 3}
+      propertyPath: m_Mass
+      value: 0.34994668
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bc30ccd5ea4830841b2a5263ba3b4e9b, type: 3}
@@ -963,7 +967,7 @@ PrefabInstance:
     - target: {fileID: 7499694041292173006, guid: 017e5dea13c15464b90495b56d6b025b,
         type: 3}
       propertyPath: m_RootOrder
-      value: 11
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 7499694041292173006, guid: 017e5dea13c15464b90495b56d6b025b,
         type: 3}

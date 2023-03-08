@@ -9,7 +9,7 @@ public class UnitBattle : MonoBehaviour
     public bool AttackEnemy(GameObject enemy)
     {
         if (enemy != null ) {
-            Unit enemyUnit = enemy.GetComponent<Unit>();
+            UnitInfo enemyUnit = enemy.GetComponent<UnitInfo>();
             enemyUnit.hp -= attackDamage;
             return (enemyUnit.hp > 0);
         }

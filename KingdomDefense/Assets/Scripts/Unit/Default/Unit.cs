@@ -5,7 +5,7 @@ using System;
 
 public class Unit : MonoBehaviour
 {
-    /*  유닛의 속성과 진영을 결정짓는 열거형, 비트마스크 사용  */
+    /*
     [Flags] public enum ElementType
     {
         KD_Normal = 1 << 0,
@@ -18,8 +18,7 @@ public class Unit : MonoBehaviour
 
     public ElementType elementType;
     public int hp;
-
-    /* 메인 카메라와 부속 스크립트 컴포넌트  */
+    
     private Camera mainCamera;
     private UnitMove unitMove;
     private UnitDetect unitDetect;
@@ -31,12 +30,6 @@ public class Unit : MonoBehaviour
 
     private const float delay = 0.25f;
     private const float detectRange = 1f;
-
-    public void Initialize(ElementType elementInput)
-    {
-        elementType = elementInput;
-        hp = 20;
-    }
 
     private void Awake()
     {
@@ -87,11 +80,11 @@ public class Unit : MonoBehaviour
         }
     }
 
-    /* 카메라 범위 안에 있는 지 확인하여 나갔으면 제거  */
     private void CheckIsOnScreen()
     {
         Vector3 screenPoint = mainCamera.WorldToViewportPoint(transform.position);
         if (screenPoint.x < 0 || screenPoint.x > 1 || screenPoint.y < 0 || screenPoint.y > 1)
             Destroy(gameObject);
     }
+    */
 }

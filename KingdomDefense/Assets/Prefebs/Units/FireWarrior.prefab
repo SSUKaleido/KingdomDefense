@@ -2368,8 +2368,9 @@ GameObject:
   - component: {fileID: 6276865617266629186}
   - component: {fileID: 8310776467049325692}
   - component: {fileID: 5701737762758787126}
-  - component: {fileID: 7087175385766226181}
-  - component: {fileID: 843333731085780095}
+  - component: {fileID: 3450791193415448693}
+  - component: {fileID: 4935981877237891478}
+  - component: {fileID: 4483408335410012191}
   - component: {fileID: 6609019819480386096}
   - component: {fileID: 6216702980901082663}
   m_Layer: 20
@@ -2474,7 +2475,7 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
---- !u!114 &7087175385766226181
+--- !u!114 &3450791193415448693
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2483,13 +2484,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 6276865617266629187}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8bab9275f88cc0042a47463674646f8f, type: 3}
+  m_Script: {fileID: 11500000, guid: 629719337098cd24aa6a14726dde6ae1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  elementType: 0
-  hp: 0
-  isAdjoinWithEnemy: 0
---- !u!114 &843333731085780095
+  elementType: 2
+  hp: 20
+--- !u!114 &4935981877237891478
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2498,7 +2498,19 @@ MonoBehaviour:
   m_GameObject: {fileID: 6276865617266629187}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: d7bb791d94087b24dad6f5629094fd96, type: 3}
+  m_Script: {fileID: 11500000, guid: b9b2a4f744199714fb77f9bf2c039682, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &4483408335410012191
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6276865617266629187}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3b5dd337965ba9241ae36236b59b9c77, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   attackDamage: 2

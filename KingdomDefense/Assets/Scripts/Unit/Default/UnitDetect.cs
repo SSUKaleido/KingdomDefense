@@ -7,10 +7,10 @@ public class UnitDetect : MonoBehaviour
 {
     [SerializeField] float DetectionRadius = 2f;
 
-    Unit unit;
+    UnitInfo unitInfo;
 
     private void Awake() {
-        unit = GetComponent<Unit>();
+        unitInfo = GetComponent<UnitInfo>();
     }
 
     public GameObject FindClosestEnemy()
@@ -25,8 +25,8 @@ public class UnitDetect : MonoBehaviour
         foreach (Collider2D nearbyUnit in nearbyUnits)
         {
             float distance = Vector2.Distance(transform.position, nearbyUnit.transform.position);
-            Unit.ElementType selfElementType = unit.elementType;
-            Unit.ElementType nearbyUnitElementType = nearbyUnit.gameObject.GetComponent<Unit>().elementType;
+            UnitInfo.ElementType selfElementType = unitInfo.elementType;
+            UnitInfo.ElementType nearbyUnitElementType = nearbyUnit.gameObject.GetComponent<UnitInfo>().elementType;
 
             if (distance < closestDistance && isEnemy(selfElementType, nearbyUnitElementType))
             {
@@ -40,9 +40,9 @@ public class UnitDetect : MonoBehaviour
         return null;
     }
 
-    public static bool isEnemy(Unit.ElementType firstType, Unit.ElementType secondType) {
+    public static bool isEnemy(UnitInfo.ElementType firstType, UnitInfo.ElementType secondType) {
         if (firstType > secondType) {
-            Unit.ElementType temp = firstType;
+            UnitInfo.ElementType temp = firstType;
             firstType = secondType;
             secondType = temp;
         }

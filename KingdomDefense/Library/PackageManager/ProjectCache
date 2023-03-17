@@ -105,6 +105,7 @@ m_ResolvedPackages:
     - 2.0.0-preview.21
     - 2.0.0-preview.22
     - 2.0.0
+    - 2.0.1
     - 2.1.0-preview.3
     - 2.1.0-preview.5
     - 2.1.0-preview.6
@@ -118,6 +119,7 @@ m_ResolvedPackages:
     - 2.0.0-preview.21
     - 2.0.0-preview.22
     - 2.0.0
+    - 2.0.1
     - 2.1.0-preview.3
     - 2.1.0-preview.5
     - 2.1.0-preview.6
@@ -458,7 +460,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: 
+  type: asset
   description: Code editor integration for supporting Visual Studio Code as code
     editor for unity. Adds support for generating csproj files for intellisense purposes,
     auto discovery of installations, etc.
@@ -493,7 +495,7 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
-  hideInEditor: 1
+  hideInEditor: 0
   isAssetStorePackage: 0
   datePublishedTicks: 637800255360000000
   documentationUrl: 
@@ -742,6 +744,7 @@ m_ResolvedPackages:
     - 3.2.0-pre.3
     - 3.2.0-pre.4
     - 4.0.0-pre.1
+    - 4.0.0-pre.2
     compatible:
     - 3.0.6
     - 3.2.0-pre.1
@@ -881,8 +884,10 @@ m_ResolvedPackages:
     - 1.7.1
     - 1.7.2
     - 1.7.3
+    - 1.7.4
     - 1.8.0
     - 1.8.1
+    - 1.8.2
     compatible:
     - 1.6.4
     - 1.7.0-pre.1
@@ -891,8 +896,10 @@ m_ResolvedPackages:
     - 1.7.1
     - 1.7.2
     - 1.7.3
+    - 1.7.4
     - 1.8.0
     - 1.8.1
+    - 1.8.2
     verified: 1.6.4
   dependencies:
   - name: com.unity.modules.director
@@ -2877,7 +2884,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: Libraries
-  type: 
+  type: asset
   description: Custom version of the nunit package build to work with Unity. Used
     by the Unity Test Framework.
   status: 0
@@ -2911,7 +2918,7 @@ m_ResolvedPackages:
     isDefault: 1
     capabilities: 7
     configSource: 0
-  hideInEditor: 1
+  hideInEditor: 0
   isAssetStorePackage: 0
   datePublishedTicks: 637429759280000000
   documentationUrl: 
@@ -3037,6 +3044,7 @@ m_ResolvedPackages:
     - 7.0.7
     - 7.0.8
     - 7.0.9
+    - 7.0.10
     - 8.0.0-pre.3
     - 8.0.0-pre.4
     - 8.0.0
@@ -3051,9 +3059,11 @@ m_ResolvedPackages:
     - 9.0.1
     - 10.0.0-pre.1
     - 10.0.0-pre.2
+    - 10.0.0
     compatible:
     - 7.0.9
-    verified: 7.0.9
+    - 7.0.10
+    verified: 7.0.10
   dependencies:
   - name: com.unity.2d.common
     version: 6.0.6
@@ -3277,6 +3287,7 @@ m_ResolvedPackages:
     - 8.0.2
     - 9.0.0-pre.1
     - 9.0.0-pre.2
+    - 9.0.0
     compatible:
     - 6.0.6
     - 6.0.7
@@ -3478,6 +3489,7 @@ m_ResolvedPackages:
     - 7.0.4
     - 7.0.5
     - 7.0.6
+    - 7.0.7
     - 8.0.0-pre.4
     - 8.0.0-pre.5
     - 8.0.0
@@ -3487,9 +3499,11 @@ m_ResolvedPackages:
     - 9.0.1
     - 10.0.0-pre.1
     - 10.0.0-pre.2
+    - 10.0.0
     compatible:
     - 7.0.6
-    verified: 7.0.6
+    - 7.0.7
+    verified: 7.0.7
   dependencies:
   - name: com.unity.mathematics
     version: 1.1.0
@@ -3655,16 +3669,19 @@ m_ResolvedPackages:
     - 2.2.2
     - 2.2.3
     - 2.2.4
+    - 2.2.5
     - 3.0.0
     - 3.0.1
     - 3.0.2
     - 3.0.3
     - 4.0.0-pre.1
     - 4.0.0-pre.2
+    - 4.0.0-pre.3
     compatible:
     - 2.2.3
     - 2.2.4
-    verified: 2.2.4
+    - 2.2.5
+    verified: 2.2.5
   dependencies:
   - name: com.unity.modules.tilemap
     version: 1.0.0
@@ -3755,10 +3772,12 @@ m_ResolvedPackages:
     - 1.6.0
     - 1.7.0
     - 1.7.1
+    - 1.8.1
     compatible:
     - 1.6.0
     - 1.7.0
     - 1.7.1
+    - 1.8.1
     verified: 1.6.0
   dependencies:
   - name: com.unity.modules.unitywebrequest
@@ -3930,6 +3949,7 @@ m_ResolvedPackages:
     - 8.0.1
     - 9.0.0-pre.1
     - 9.0.0-pre.2
+    - 9.0.0
     compatible:
     - 6.0.6
     verified: 6.0.6
@@ -4095,8 +4115,10 @@ m_ResolvedPackages:
     - 2.0.2
     - 3.0.1
     - 3.0.2
+    - 3.1.0
     compatible:
     - 3.0.2
+    - 3.1.0
     verified: 3.0.2
   dependencies: []
   resolvedDependencies: []

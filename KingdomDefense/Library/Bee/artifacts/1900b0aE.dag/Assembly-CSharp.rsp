@@ -376,6 +376,7 @@
 "Assets/Cainos/Pixel Art Top Down - Basic/Script/PropsAltar.cs"
 "Assets/Cainos/Pixel Art Top Down - Basic/Script/SpriteColorAnimation.cs"
 "Assets/Cainos/Pixel Art Top Down - Basic/Script/TopDownCharacterController.cs"
+"Assets/Fantasy UI/Samples/IconPreview.cs"
 "Assets/Scripts/MatchManager.cs"
 "Assets/Scripts/Unit/Achor/Achor.cs"
 "Assets/Scripts/Unit/Achor/AchorBattle.cs"

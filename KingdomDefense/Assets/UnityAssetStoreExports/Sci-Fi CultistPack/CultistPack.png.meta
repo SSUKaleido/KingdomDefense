@@ -247,11 +247,11 @@ TextureImporter:
   lightmap: 0
   compressionQuality: 50
   spriteMode: 2
-  spriteExtrude: 1
+  spriteExtrude: 0
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 1
+  spritePixelsToUnits: 50
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -1774,10 +1774,10 @@ TextureImporter:
       EXPORT (2)_22: -3174205756479804096
       EXPORT (2)_30: -1895614531058365818
       EXPORT (2)_20: 7523406051149110120
-      EXPORT (2)_26: -5830219398901780971
-      EXPORT (2)_8: 6706893976896285130
-      EXPORT (2)_65: -3522708793324367774
       EXPORT (2)_68: 6364925694769716633
+      EXPORT (2)_26: -5830219398901780971
+      EXPORT (2)_65: -3522708793324367774
+      EXPORT (2)_8: 6706893976896285130
       EXPORT (2)_0: 333382803326201578
       EXPORT (2)_49: -4684628711648490238
       EXPORT (2)_6: 464378795544940807

@@ -389,6 +389,7 @@
 "Assets/Scripts/Unit/Warrior/WarriorBattle.cs"
 "Assets/Scripts/Unit/_Old/Unit.cs"
 "Assets/Scripts/Unit/_Old/UnitBattle.cs"
+"Assets/Scripts/UnitSlot.cs"
 "Assets/SPUM/Sample/Script/PlayerManager.cs"
 "Assets/SPUM/Sample/Script/PlayerObj.cs"
 "Assets/SPUM/Script/Ect/SpritePos.cs"

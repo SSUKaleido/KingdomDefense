@@ -11,6 +11,7 @@ public class UnitSlot : MonoBehaviour, IBeginDragHandler, IEndDragHandler, IDrag
     private GameObject unitImage;
     private Vector2 mousePosition;
     private Camera mainCamera;
+    private GameObject matchManager;
 
     private const int leftBounder = -13;
     private const int rightBounder = -5;
@@ -25,6 +26,9 @@ public class UnitSlot : MonoBehaviour, IBeginDragHandler, IEndDragHandler, IDrag
 
     void IBeginDragHandler.OnBeginDrag(PointerEventData eventData)
     {
+        if (matchManager == null)
+            matchManager = GameObject.Find("MatchManager");
+
         mousePosition = mainCamera.ScreenToWorldPoint(eventData.position);
 
         unitImage = Instantiate(spawnUnitImage, new Vector3(mousePosition.x, mousePosition.y, 1), Quaternion.identity);
@@ -56,8 +60,19 @@ public class UnitSlot : MonoBehaviour, IBeginDragHandler, IEndDragHandler, IDrag
 
     void IEndDragHandler.OnEndDrag(PointerEventData eventData)
     {
-        if (unitImage.activeSelf)
-            Instantiate(spawnUnits[Random.Range(0, spawnUnits.Length)], new Vector3(mousePosition.x, mousePosition.y, 1), Quaternion.identity);
+        if (unitImage.activeSelf) {
+            GameObject newUnit = Instantiate(spawnUnits[Random.Range(0, spawnUnits.Length)], new Vector3(mousePosition.x, mousePosition.y, 1), Quaternion.identity);
+
+            if (matchManager != null && matchManager.GetComponent<MatchManager>().gem >= newUnit.GetComponent<UnitInfo>().cost)
+            {
+                MatchManager matchManagerScript = matchManager.GetComponent<MatchManager>();
+                matchManagerScript.gem -= newUnit.GetComponent<UnitInfo>().cost;
+                matchManagerScript.gemImage.fillAmount = matchManagerScript.gem / 10f;
+                matchManagerScript.gemText.text = matchManagerScript.gem.ToString();
+            }
+            else
+                Destroy(newUnit);
+        }
         
         Destroy(unitImage);
     }

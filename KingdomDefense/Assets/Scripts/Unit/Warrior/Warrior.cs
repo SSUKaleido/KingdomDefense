@@ -12,6 +12,24 @@ public class Warrior : MonoBehaviour
     private WarriorBattle warriorBattle;
     private Animator animator;
 
+    private float size_y_;
+    private float size_x_;
+    public float BottomBounder
+    {
+        get
+        {
+            return size_y_ * -1 + mainCamera.gameObject.transform.position.y;
+        }
+    }
+
+    public float TopBounder
+    {
+        get
+        {
+            return size_y_ + mainCamera.gameObject.transform.position.y;
+        }
+    }
+
     private GameObject closestEnemy = null;
     private bool isAdjoinWithEnemy = false;
 
@@ -30,6 +48,9 @@ public class Warrior : MonoBehaviour
 
     private void Start()
     {
+        size_y_ = mainCamera.orthographicSize;
+        size_x_ = mainCamera.orthographicSize * Screen.width / Screen.height;
+
         StartCoroutine(PerformNextBehavior());
     }
 
@@ -59,6 +80,12 @@ public class Warrior : MonoBehaviour
                 
                 /*  그 가장 가까운 적과 인접했는 지 확인하고 인접 여부 true로  */
                 if (closestEnemy != null && Vector2.Distance(transform.position, closestEnemy.transform.position) <= detectRange)
+                    isAdjoinWithEnemy = true;
+
+                /*  그 끝에 거의 다다랐으면 적의 캠프 찾아서 공격  */
+                if (closestEnemy != null && closestEnemy.name == "MonsterCastle" && transform.position.y >= TopBounder - 1 - detectRange)
+                    isAdjoinWithEnemy = true;
+                else if (closestEnemy != null && closestEnemy.name == "KingdomCastle" && transform.position.y <= BottomBounder + 1 + detectRange)
                     isAdjoinWithEnemy = true;
             }
 

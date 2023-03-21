@@ -8,14 +8,14 @@ public class UnitSlot : MonoBehaviour, IBeginDragHandler, IEndDragHandler, IDrag
     public GameObject[] spawnUnits;
     public GameObject spawnUnitImage;
 
-    GameObject unitImage;
-    Vector2 mousePosition;
-    Camera mainCamera;
+    private GameObject unitImage;
+    private Vector2 mousePosition;
+    private Camera mainCamera;
 
-    const int LeftBounder = -13;
-    const int RightBounder = -5;
-    const int upBounder = -1;
-    const int downBounder = -4;
+    private const int leftBounder = -13;
+    private const int rightBounder = -5;
+    private const int upBounder = -1;
+    private const int downBounder = -4;
 
 
     void Start()
@@ -35,7 +35,7 @@ public class UnitSlot : MonoBehaviour, IBeginDragHandler, IEndDragHandler, IDrag
     {
         mousePosition = mainCamera.ScreenToWorldPoint(eventData.position);
 
-        if (mousePosition.x >= LeftBounder && mousePosition.x <= RightBounder)
+        if (mousePosition.x >= leftBounder && mousePosition.x <= rightBounder)
         {
             if (unitImage.activeSelf == false)
                 unitImage.SetActive(true);

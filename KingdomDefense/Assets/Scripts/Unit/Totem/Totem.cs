@@ -8,9 +8,8 @@ public class Totem : MonoBehaviour
     private Camera mainCamera;
     private UnitInfo unitInfo;
     private TotemBattle totemBattle;
-    private UnitDetect unitDetect;
 
-    private const float delay = 0.25f;
+    private const float delay = 1f;
     private const float detectRange = 1f;
 
     private void Awake()
@@ -36,6 +35,8 @@ public class Totem : MonoBehaviour
     {
         while (true)
         {
+            totemBattle.SelfDamage();
+            
             yield return new WaitForSeconds(delay);
         }
     }

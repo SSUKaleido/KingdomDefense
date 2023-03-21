@@ -18,4 +18,5 @@ public class UnitInfo : MonoBehaviour
 
     public ElementType elementType;
     public int hp;
+    public int cost;
 }

@@ -1078,6 +1078,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   elementType: 2
   hp: 30
+  cost: 4
 --- !u!114 &4642175950549704614
 MonoBehaviour:
   m_ObjectHideFlags: 0

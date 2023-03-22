@@ -36,7 +36,8 @@ public class UnitDetect : MonoBehaviour
         }
 
         if (closestEnemy != null)
-            return closestEnemy.gameObject;
+            return closestEnemy.gameObject;      
+
         return null;
     }
 

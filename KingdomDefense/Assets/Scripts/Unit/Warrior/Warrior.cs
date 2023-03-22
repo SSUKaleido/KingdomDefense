@@ -70,8 +70,11 @@ public class Warrior : MonoBehaviour
             CheckIsOnScreen();
 
             /*  지금 추적하고 있는 가장 가까운 적이 멀어졌다면 인접 여부 false로  */
-            if (closestEnemy != null && Vector2.Distance(transform.position, closestEnemy.transform.position) > detectRange)
+            if (closestEnemy != null && closestEnemy.name != "KingdomCastle" && closestEnemy.name != "MonsterCastle" && Vector2.Distance(transform.position, closestEnemy.transform.position) > detectRange)
+            {
+                closestEnemy = null;
                 isAdjoinWithEnemy = false;
+            }
 
             /*  인접하고 있는 적이 없다면 가장 가까운 적을 찾음  */
             if (isAdjoinWithEnemy == false && unitInfo.hp > 0)
@@ -83,16 +86,22 @@ public class Warrior : MonoBehaviour
                     isAdjoinWithEnemy = true;
 
                 /*  그 끝에 거의 다다랐으면 적의 캠프 찾아서 공격  */
-                if (closestEnemy != null && closestEnemy.name == "MonsterCastle" && transform.position.y >= TopBounder - 5 - detectRange)
+                if (unitInfo.isIKingdom() && unitInfo.transform.position.y >= TopBounder- detectRange)
+                {
                     isAdjoinWithEnemy = true;
-                else if (closestEnemy != null && closestEnemy.name == "KingdomCastle" && transform.position.y <= BottomBounder + 5 + detectRange)
+                }
+                else if (!unitInfo.isIKingdom() && transform.position.y <= BottomBounder + detectRange)
+                {
                     isAdjoinWithEnemy = true;
+                }
             }
 
             /*  가장 가까운 적과 인접했다면 공격 실행  */
             if (isAdjoinWithEnemy == true && unitInfo.hp > 0)
             {
                 isAdjoinWithEnemy = warriorBattle.AttackEnemy(closestEnemy);
+                if (isAdjoinWithEnemy == false)
+                    closestEnemy = null;
                 eachDelay = warriorBattle.AttackAnimation(animator);
             }
 

@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6956757259714239489}
   - component: {fileID: 6956757259714239490}
-  m_Layer: 0
+  m_Layer: 19
   m_Name: Tent3
   m_TagString: Castle
   m_Icon: {fileID: 0}
@@ -98,7 +98,7 @@ GameObject:
   - component: {fileID: -4431335744501114507}
   - component: {fileID: -757572539174375293}
   - component: {fileID: 6935876120419310726}
-  m_Layer: 20
+  m_Layer: 19
   m_Name: MonsterCastle
   m_TagString: Unit
   m_Icon: {fileID: 0}
@@ -184,6 +184,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   elementType: 8
   hp: 100
+  cost: 0
 --- !u!114 &-757572539174375293
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -218,7 +219,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6956757260641458456}
   - component: {fileID: 6956757260641458457}
-  m_Layer: 0
+  m_Layer: 19
   m_Name: Tent2
   m_TagString: Castle
   m_Icon: {fileID: 0}
@@ -302,7 +303,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6956757260756528883}
   - component: {fileID: 6956757260756528876}
-  m_Layer: 0
+  m_Layer: 19
   m_Name: Tent1
   m_TagString: Castle
   m_Icon: {fileID: 0}

@@ -33,7 +33,7 @@ public class Achor : MonoBehaviour
     }
 
     private const float delay = 0.25f;
-    private const float detectRange = 2f;
+    private const float detectRange = 3f;
 
     private void Awake()
     {
@@ -84,10 +84,14 @@ public class Achor : MonoBehaviour
                     isAdjoinWithEnemy = true;
 
                 /*  그 끝에 거의 다다랐으면 적의 캠프 찾아서 공격  */
-                if (closestEnemy != null && closestEnemy.name == "MonsterCastle" && transform.position.y >= TopBounder - 1 - detectRange)
+                if (unitInfo.isIKingdom() && unitInfo.transform.position.y >= TopBounder - detectRange)
+                {
                     isAdjoinWithEnemy = true;
-                else if (closestEnemy != null && closestEnemy.name == "KingdomCastle" && transform.position.y <= BottomBounder + 1 + detectRange)
+                }
+                else if (!unitInfo.isIKingdom() && transform.position.y <= BottomBounder + detectRange)
+                {
                     isAdjoinWithEnemy = true;
+                }
             }
 
             /*  가장 가까운 적과 인접했다면 공격 실행  */

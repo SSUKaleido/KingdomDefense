@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class TotemBattle : MonoBehaviour
 {
+    [SerializeField] int dotDamage = 0;
+
     private UnitInfo unitInfo;
 
     private void Awake()
@@ -14,8 +16,7 @@ public class TotemBattle : MonoBehaviour
 
     public void SelfDamage()
     {
-        if (gameObject.name != "KingdomCastle" || gameObject.name != "MonsterKingdom")
-            unitInfo.hp -= 1;
+        unitInfo.hp -= dotDamage;
     }
 
     public void DieUnit()

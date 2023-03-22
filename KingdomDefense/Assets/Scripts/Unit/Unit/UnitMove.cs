@@ -6,11 +6,20 @@ public class UnitMove : MonoBehaviour
 {
     [SerializeField] private int speed = 2;
 
-    public void MoveUnit(UnitInfo.ElementType elementType, GameObject closestEnemy, bool isAdjoinWithEnemy) {
+    public void MoveUnit(UnitInfo.ElementType elementType, GameObject closestEnemy, bool isAdjoinWithEnemy)
+    {
         if (closestEnemy == null && isAdjoinWithEnemy == false)
+        {
             MoveUnitToForward(elementType);
+        }
         else if (closestEnemy != null && isAdjoinWithEnemy == false)
+        {
             MoveUnitToEnemy(closestEnemy.transform);
+        }
+        else if (isAdjoinWithEnemy == true)
+        {
+            transform.position = Vector3.MoveTowards(transform.position, transform.position, speed * Time.deltaTime);
+        }
     }
 
     private void MoveUnitToForward(UnitInfo.ElementType elementType) {

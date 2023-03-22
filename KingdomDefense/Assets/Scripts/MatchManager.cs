@@ -14,8 +14,8 @@ public class MatchManager : MonoBehaviour
     [SerializeField] Slider iceSlider;
     [SerializeField] Slider kingdomHeartBar;
     [SerializeField] Slider monsterHeartBar;
-    [SerializeField] GameObject kingdomCastle;
-    [SerializeField] GameObject monsterCastle;
+    [SerializeField] GameObject kingdomCastlePrefeb;
+    [SerializeField] GameObject monsterCastlePrefeb;
 
     public int time = 180;
     public int gem = 0;
@@ -53,6 +53,9 @@ public class MatchManager : MonoBehaviour
         }
     }
 
+    private UnitInfo kingdomCastleInfo;
+    private UnitInfo monsterCastleInfo;
+
     public GameObject obj;
 
     private void Start()
@@ -67,8 +70,8 @@ public class MatchManager : MonoBehaviour
     private void GameStart()
     {
         float middle = (leftBounder + rightBounder) / 2;
-        Instantiate(kingdomCastle, new Vector3(middle, bottomBounder, 1f), Quaternion.identity);
-        Instantiate(monsterCastle, new Vector3(middle, topBounder, 1f), Quaternion.identity);
+        kingdomCastleInfo = Instantiate(kingdomCastlePrefeb, new Vector3(middle, bottomBounder, 1f), Quaternion.identity).GetComponent<UnitInfo>();
+        monsterCastleInfo = Instantiate(monsterCastlePrefeb, new Vector3(middle, topBounder, 1f), Quaternion.identity).GetComponent<UnitInfo>();
 
         StartCoroutine(TimeCount());
     }
@@ -77,6 +80,9 @@ public class MatchManager : MonoBehaviour
     {
         fireSlider.value = firePower;
         iceSlider.value = icePower;
+
+        kingdomHeartBar.value = kingdomCastleInfo.hp;
+        monsterHeartBar.value = monsterCastleInfo.hp;
 
         if (Input.GetKeyDown(KeyCode.W))
         {

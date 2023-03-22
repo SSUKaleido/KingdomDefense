@@ -17,6 +17,14 @@ public class UnitInfo : MonoBehaviour
     }
 
     public ElementType elementType;
-    public int hp;
+    public float hp;
     public int cost;
+
+
+    public bool isIKingdom()
+    {
+        if (((int)elementType & 0b111000) == 0)
+            return true;
+        return false;
+    }
 }

@@ -14,8 +14,8 @@ public class MatchManager : MonoBehaviour
     [SerializeField] Slider iceSlider;
     [SerializeField] Slider kingdomHeartBar;
     [SerializeField] Slider monsterHeartBar;
-    [SerializeField] GameObject kingdomCastlePrefeb;
-    [SerializeField] GameObject monsterCastlePrefeb;
+    [SerializeField] GameObject kingdomCastle;
+    [SerializeField] GameObject monsterCastle;
 
     public int time = 180;
     public int gem = 0;
@@ -70,8 +70,8 @@ public class MatchManager : MonoBehaviour
     private void GameStart()
     {
         float middle = (leftBounder + rightBounder) / 2;
-        kingdomCastleInfo = Instantiate(kingdomCastlePrefeb, new Vector3(middle, bottomBounder, 1f), Quaternion.identity).GetComponent<UnitInfo>();
-        monsterCastleInfo = Instantiate(monsterCastlePrefeb, new Vector3(middle, topBounder, 1f), Quaternion.identity).GetComponent<UnitInfo>();
+        kingdomCastleInfo = GameObject.Find("KingdomCastle").GetComponent<UnitInfo>();
+        monsterCastleInfo = GameObject.Find("MonsterCastle").GetComponent<UnitInfo>();
 
         StartCoroutine(TimeCount());
     }
@@ -83,13 +83,6 @@ public class MatchManager : MonoBehaviour
 
         kingdomHeartBar.value = kingdomCastleInfo.hp;
         monsterHeartBar.value = monsterCastleInfo.hp;
-
-        if (Input.GetKeyDown(KeyCode.W))
-        {
-            Vector3 mPosition = Input.mousePosition; //마우스의 스크린 좌표를 입력받는다.
-            Vector3 target = Camera.main.ScreenToWorldPoint(mPosition); //입력 받은 마우스의 좌표값을 월드좌표로 변환
-            Instantiate(obj, target, Quaternion.identity); //변환한 위치에 원하는 오브젝트를 생성
-        }
     }
 
     private IEnumerator TimeCount()

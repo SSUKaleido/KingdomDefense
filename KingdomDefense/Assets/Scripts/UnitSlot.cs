@@ -13,10 +13,10 @@ public class UnitSlot : MonoBehaviour, IBeginDragHandler, IEndDragHandler, IDrag
     private Camera mainCamera;
     [SerializeField] GameObject matchManager;
 
-    private const int leftBounder = -13;
-    private const int rightBounder = -5;
+    private const int leftBounder = -100;
+    private const int rightBounder = 0;
     private const int upBounder = -1;
-    private const int downBounder = -4;
+    private const int downBounder = -20;
 
 
     void Start()

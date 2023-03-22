@@ -83,9 +83,9 @@ public class Warrior : MonoBehaviour
                     isAdjoinWithEnemy = true;
 
                 /*  그 끝에 거의 다다랐으면 적의 캠프 찾아서 공격  */
-                if (closestEnemy != null && closestEnemy.name == "MonsterCastle" && transform.position.y >= TopBounder - 1 - detectRange)
+                if (closestEnemy != null && closestEnemy.name == "MonsterCastle" && transform.position.y >= TopBounder - 5 - detectRange)
                     isAdjoinWithEnemy = true;
-                else if (closestEnemy != null && closestEnemy.name == "KingdomCastle" && transform.position.y <= BottomBounder + 1 + detectRange)
+                else if (closestEnemy != null && closestEnemy.name == "KingdomCastle" && transform.position.y <= BottomBounder + 5 + detectRange)
                     isAdjoinWithEnemy = true;
             }
 

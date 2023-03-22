@@ -24,7 +24,6 @@ public class Achor : MonoBehaviour
             return size_y_ * -1 + mainCamera.gameObject.transform.position.y;
         }
     }
-
     public float TopBounder
     {
         get

@@ -6,33 +6,78 @@ using TMPro;
 
 public class MatchManager : MonoBehaviour
 {
-    public static MatchManager instance = null;
-
-    public TextMeshProUGUI timeText;
+    private Camera mainCamera;
+    [SerializeField] TextMeshProUGUI timeText;
     public Image gemImage;
     public TextMeshProUGUI gemText;
+    [SerializeField] Slider fireSlider;
+    [SerializeField] Slider iceSlider;
+    [SerializeField] Slider kingdomHeartBar;
+    [SerializeField] Slider monsterHeartBar;
+    [SerializeField] GameObject kingdomCastle;
+    [SerializeField] GameObject monsterCastle;
 
     public int time = 180;
     public int gem = 0;
-    public int elementTempurature = 0;
+    public int firePower = 0;
+    public int icePower = 0;
+
+    private float size_y_;
+    private float size_x_;
+    public float bottomBounder
+    {
+        get
+        {
+            return size_y_ * -1 + mainCamera.gameObject.transform.position.y;
+        }
+    }
+    public float topBounder
+    {
+        get
+        {
+            return size_y_ + mainCamera.gameObject.transform.position.y;
+        }
+    }
+    public float leftBounder
+    {
+        get
+        {
+            return size_x_ * -1 + mainCamera.gameObject.transform.position.x;
+        }
+    }
+    public float rightBounder
+    {
+        get
+        {
+            return size_x_ + mainCamera.gameObject.transform.position.x;
+        }
+    }
 
     public GameObject obj;
 
-    private void Awake()
-    {
-        if (instance == null)
-            instance = this;
-        else if (instance != this)
-            Destroy(gameObject);
-    }
-
     private void Start()
     {
+        mainCamera = Camera.main;
+        size_y_ = mainCamera.orthographicSize;
+        size_x_ = mainCamera.orthographicSize * Screen.width / Screen.height;
+
+        GameStart();
+    }
+
+    private void GameStart()
+    {
+        float middle = (leftBounder + rightBounder) / 2;
+        Instantiate(kingdomCastle, new Vector3(middle, bottomBounder, 1f), Quaternion.identity);
+        Instantiate(monsterCastle, new Vector3(middle, topBounder, 1f), Quaternion.identity);
+
         StartCoroutine(TimeCount());
     }
 
     private void Update()
     {
+        fireSlider.value = firePower;
+        iceSlider.value = icePower;
+
         if (Input.GetKeyDown(KeyCode.W))
         {
             Vector3 mPosition = Input.mousePosition; //마우스의 스크린 좌표를 입력받는다.
@@ -53,5 +98,21 @@ public class MatchManager : MonoBehaviour
             timeText.text = --time / 60 + ":" + time % 60;
             yield return new WaitForSeconds(1f);
         }
+    }
+
+    public void FirePowerUP()
+    {
+        if (icePower > 0)
+            icePower--;
+        else
+            firePower++;
+    }
+
+    public void IcePowerUP()
+    {
+        if (firePower > 0)
+            firePower--;
+        else
+            icePower++;
     }
 }

@@ -11,7 +11,7 @@ public class UnitSlot : MonoBehaviour, IBeginDragHandler, IEndDragHandler, IDrag
     private GameObject unitImage;
     private Vector2 mousePosition;
     private Camera mainCamera;
-    private GameObject matchManager;
+    [SerializeField] GameObject matchManager;
 
     private const int leftBounder = -13;
     private const int rightBounder = -5;
@@ -26,9 +26,6 @@ public class UnitSlot : MonoBehaviour, IBeginDragHandler, IEndDragHandler, IDrag
 
     void IBeginDragHandler.OnBeginDrag(PointerEventData eventData)
     {
-        if (matchManager == null)
-            matchManager = GameObject.Find("MatchManager");
-
         mousePosition = mainCamera.ScreenToWorldPoint(eventData.position);
 
         unitImage = Instantiate(spawnUnitImage, new Vector3(mousePosition.x, mousePosition.y, 1), Quaternion.identity);
@@ -60,15 +57,25 @@ public class UnitSlot : MonoBehaviour, IBeginDragHandler, IEndDragHandler, IDrag
 
     void IEndDragHandler.OnEndDrag(PointerEventData eventData)
     {
+        if (matchManager == null)
+            matchManager = GameObject.Find("MatchManager");
+
         if (unitImage.activeSelf) {
             GameObject newUnit = Instantiate(spawnUnits[Random.Range(0, spawnUnits.Length)], new Vector3(mousePosition.x, mousePosition.y, 1), Quaternion.identity);
+            UnitInfo newUnitInfo = newUnit.GetComponent<UnitInfo>();
 
-            if (matchManager != null && matchManager.GetComponent<MatchManager>().gem >= newUnit.GetComponent<UnitInfo>().cost)
+            if (matchManager != null && matchManager.GetComponent<MatchManager>().gem >= newUnitInfo.cost)
             {
                 MatchManager matchManagerScript = matchManager.GetComponent<MatchManager>();
-                matchManagerScript.gem -= newUnit.GetComponent<UnitInfo>().cost;
+
+                matchManagerScript.gem -= newUnitInfo.cost;
                 matchManagerScript.gemImage.fillAmount = matchManagerScript.gem / 10f;
                 matchManagerScript.gemText.text = matchManagerScript.gem.ToString();
+
+                if ((int)newUnitInfo.elementType == 0b10 && matchManagerScript.firePower < 10)
+                    matchManagerScript.FirePowerUP();
+                if ((int)newUnitInfo.elementType == 0b100 && matchManagerScript.icePower < 10)
+                    matchManagerScript.IcePowerUP();
             }
             else
                 Destroy(newUnit);

@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 26188455476811597}
   - component: {fileID: 26188455476811596}
   - component: {fileID: 26188455476811586}
-  m_Layer: 20
+  m_Layer: 21
   m_Name: IceTotem
   m_TagString: Unit
   m_Icon: {fileID: 0}

@@ -575,7 +575,7 @@ MonoBehaviour:
   time: 180
   gem: 0
   elementTempurature: 0
-  obj: {fileID: 1915532866039154591, guid: bc30ccd5ea4830841b2a5263ba3b4e9b, type: 3}
+  obj: {fileID: 8733145021602722710, guid: 017e5dea13c15464b90495b56d6b025b, type: 3}
 --- !u!4 &831486786
 Transform:
   m_ObjectHideFlags: 0
